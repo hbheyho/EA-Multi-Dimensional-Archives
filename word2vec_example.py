@@ -3,10 +3,16 @@ import codecs
 from gensim.models import Word2Vec
 from gensim.models.word2vec import LineSentence
 import re
-import random
-import matplotlib.pyplot as plt
+
+
+from builtins import bytes, range
+
+import pandas as pd
+pd.options.mode.chained_assignment = None
 from sklearn.manifold import TSNE
-import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.font_manager import FontProperties
+font = FontProperties(fname="himalaya.ttf",size=20)
 
 import logging
 
@@ -15,12 +21,12 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=lo
 
 # 进行jieba分词操作
 def wordSegmentation():
-    source = codecs.open('D:/StudyFile/ProjectWorkstation/EA/EntityAlignment/dataset/Segment/in_the_name_of_people.txt', 'r',
+    source = codecs.open('D:/StudyFile/ProjectWorkstation/EA/EntityAlignment/dataset/segment/in_the_name_of_people.txt', 'r',
                          encoding="utf8")
     target = codecs.open(
-        'D:/StudyFile/ProjectWorkstation/EA/EntityAlignment/dataset/Segment/in_the_name_of_people_segment.txt', 'w',
+        'D:/StudyFile/ProjectWorkstation/EA/EntityAlignment/dataset/segment/in_the_name_of_people_segment.txt', 'w',
         encoding="utf8")
-    dict_path = 'D:/StudyFile/ProjectWorkstation/EA/EntityAlignment/dataset/Segment/people.txt'
+    dict_path = 'D:/StudyFile/ProjectWorkstation/EA/EntityAlignment/dataset/segment/people.txt'
 
     # 加载自定义词典
     jieba.load_userdict(dict_path)
@@ -57,42 +63,44 @@ def wordSegmentation():
 # min_count 可以对字典做截断. 词频少于min_count次数的单词会被丢弃掉, 默认值为5
 # workers 表示训练的并行数
 # sample: 高频词汇的随机降采样的配置阈值，默认为1e-3，范围是(0,1e-5)
-
 def word2vec():
     # 首先打开需要训练的文本
-    # sentences = word2vec.LineSentence('D:/StudyFile/ProjectWorkstation/EA/EntityAlignment/dataset/Segment/in_the_name_of_people_segment.txt')
-    sentences = open('D:/StudyFile/ProjectWorkstation/EA/EntityAlignment/dataset/Segment'
+    # sentences = word2vec.LineSentence('D:/StudyFile/ProjectWorkstation/EA/EntityAlignment/dataset/segment/in_the_name_of_people_segment.txt')
+    sentences = open('D:/StudyFile/ProjectWorkstation/EA/EntityAlignment/dataset/segment'
                      '/in_the_name_of_people_segment.txt', 'rb')
     # 通过Word2vec进行训练
     model = Word2Vec(LineSentence(sentences), sg=1, vector_size=100, window=10, min_count=5, workers=15, sample=1e-3)
     # 保存训练好的模型
     model.save('D:/StudyFile/ProjectWorkstation/EA/EntityAlignment/'
-               'dataset/Segment/in_the_name_of_people.word2vec')
+               'dataset/segment/in_the_name_of_people.word2vec')
 
     print('训练完成')
 
 
-def tsne_plot(model):
-    "Creates and TSNE model and plots it"
+# 词向量可视化
+def tsne_plot(model, words_num):
     labels = []
     tokens = []
     for word in model.wv.index_to_key:
         tokens.append(model.wv[word])
         labels.append(word)
 
-    tsne_model = TSNE(perplexity=40, n_components=2, init='pca', n_iter=2500, random_state=23)
+    tsne_model = TSNE(perplexity=30, n_components=2, init='pca', n_iter=1000, random_state=23)
     new_values = tsne_model.fit_transform(tokens)
     x = []
     y = []
     for value in new_values:
         x.append(value[0])
         y.append(value[1])
-
-    plt.figure(figsize=(16, 16))
-    for i in range(len(x)):
+    plt.figure(figsize=(10, 10))
+    for i in range(words_num):
         plt.scatter(x[i], y[i])
+        if b'\xe0' in bytes(labels[i], encoding="utf-8"):
+            this_font = font
+        else:
+            this_font = 'SimHei'
         plt.annotate(labels[i],
-                     fontproperties=font,
+                     Fontproperties=this_font,
                      xy=(x[i], y[i]),
                      xytext=(5, 2),
                      textcoords='offset points',
@@ -105,40 +113,22 @@ if __name__ == '__main__':
     # wordSegmentation()
     # word2vec()
     # 加载模型
-    model = Word2Vec.load('D:/StudyFile/ProjectWorkstation/EA/EntityAlignment/'
-               'dataset/Segment/in_the_name_of_people.word2vec')
+    model = Word2Vec.load('dataset/segment/in_the_name_of_people.word2vec')
     # 计算相似性
-    print(model.wv.similarity('沙瑞金', '高育良'))
-    print(model.wv.similarity('李达康', '祁同伟'))
+    # print(model.wv.similarity('沙瑞金', '高育良'))
+    # print(model.wv.similarity('李达康', '祁同伟'))
 
     # 获取预料数量
-    print(model.corpus_count)
+    # print(model.corpus_count)
 
     # 获取词语向量维度
-    print(model.wv.vector_size)
+    # print(model.wv.vector_size)
 
     # 获取词向量
-    print(model.wv['李达康'])
+    # print(model.wv['李达康'])
 
     # 词向量可视化
-    tsne_plot(model)
-
-    # words = list(model.wv.index_to_key)
-    # random.shuffle(words)
-    #
-    # vector = model.wv[words]
-    #
-    # tsne = TSNE(n_components=2, init='pca', verbose=1)
-    # embedd = tsne.fit_transform(vector)
-    #
-    # plt.figure(figsize=(14, 10))
-    # plt.scatter(embedd[:300, 0], embedd[:300, 1])
-    #
-    # for i in range(300):
-    #     x = embedd[i][0]
-    #     y = embedd[i][1]
-    #     plt.text(x, y, words[i])
-    # plt.show()
+    tsne_plot(model, 100)
 
 
 
