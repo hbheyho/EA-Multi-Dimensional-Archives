@@ -1,0 +1,500 @@
+<http://dbpedia.org/resource/Castellanza> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "45.6166666667"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Kyriakos_Papadopoulos> <http://dbpedia.org/ontology/birthDate> "1992-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Javier_Aquino> <http://dbpedia.org/ontology/birthDate> "1990-02-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Carles_Rexach> <http://xmlns.com/foaf/0.1/givenName> "Carles " .
+<http://dbpedia.org/resource/Eyal_Lahman> <http://www.w3.org/2000/01/rdf-schema#label> "Eyal Lahman " .
+<http://dbpedia.org/resource/Dmitri_Ustritski> <http://xmlns.com/foaf/0.1/surname> "Ustritski " .
+<http://dbpedia.org/resource/Deniss_Rakels> <http://xmlns.com/foaf/0.1/givenName> "Deniss " .
+<http://dbpedia.org/resource/Musa_Shannon> <http://xmlns.com/foaf/0.1/givenName> "Musa " .
+<http://dbpedia.org/resource/David_Kenga> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Mombasa> .
+<http://dbpedia.org/resource/Christian_Eigler> <http://xmlns.com/foaf/0.1/surname> "Eigler " .
+<http://dbpedia.org/resource/Mike_Stringfellow> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Mike_Stringfellow__3> .
+<http://dbpedia.org/resource/Chernivtsi> <http://www.w3.org/2000/01/rdf-schema#label> "Chernivtsi " .
+<http://dbpedia.org/resource/Yuri_Morales> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Viborg_FF> .
+<http://dbpedia.org/resource/Luc_Millecamps> <http://purl.org/dc/elements/1.1/description> "footballer " .
+<http://dbpedia.org/resource/Stefan_Lexa> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Klagenfurt> .
+<http://dbpedia.org/resource/Lasse_Qvist> <http://dbpedia.org/ontology/birthYear> "1987-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Cedar_Creek_Township,_Allen_County,_Indiana> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Allen_County,_Indiana> .
+<http://dbpedia.org/resource/Jamie_Stevenson_(footballer)> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Giuseppe_Pancaro> <http://dbpedia.org/ontology/birthDate> "1971-08-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Landon_Donovan> <http://xmlns.com/foaf/0.1/givenName> "Landon " .
+<http://dbpedia.org/resource/Hugo_Carreira> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/C.D._Nacional> .
+<http://dbpedia.org/resource/Moravian_Falls,_North_Carolina> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-81.1761111111"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Emilio_Caprile> <http://xmlns.com/foaf/0.1/givenName> "Emilio"@en .
+<http://dbpedia.org/resource/Sue_Grafton> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Louisville,_Kentucky> .
+<http://dbpedia.org/resource/Jamie_Mole> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Newcastle_upon_Tyne> .
+<http://dbpedia.org/resource/Ian_Hennessy> <http://dbpedia.org/ontology/birthDate> "1967-01-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Chris_Erskine> <http://xmlns.com/foaf/0.1/givenName> "Chris " .
+<http://dbpedia.org/resource/Derek_Lyle> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Bert_Dainty> <http://dbpedia.org/ontology/managerClub> <http://dbpedia.org/resource/Ayr_United_F.C.> .
+<http://dbpedia.org/resource/Juan_de_Dios_Ibarra> <http://www.w3.org/2000/01/rdf-schema#label> "Juan de Dios Ibarra " .
+<http://dbpedia.org/resource/Fred_Howe> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Forward_(association_football)> .
+<http://dbpedia.org/resource/Matteo_Liviero> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Terry_Nicholl> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Southend_United_F.C.> .
+<http://dbpedia.org/resource/Bert_Middlemiss> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Forward_(association_football)> .
+<http://dbpedia.org/resource/Cleiton_Mendes_dos_Santos> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Santa_Cruz_Futebol_Clube> .
+<http://dbpedia.org/resource/Frank_Baum_(footballer)> <http://purl.org/dc/elements/1.1/description> "German footballer " .
+<http://dbpedia.org/resource/Luigi_Anaclerio> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Bari> .
+<http://dbpedia.org/resource/Stuart_Wilkinson_(rugby_league)> <http://www.w3.org/2000/01/rdf-schema#label> "Stuart Wilkinson (rugby league) " .
+<http://dbpedia.org/resource/Terra_Alta,_West_Virginia> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/West_Virginia> .
+<http://dbpedia.org/resource/Erik_Erikson> <http://dbpedia.org/ontology/birthName> "Erik Homburger Erikson " .
+<http://dbpedia.org/resource/Gregoor_van_Dijk> <http://www.w3.org/2000/01/rdf-schema#label> "Gregoor van Dijk " .
+<http://dbpedia.org/resource/Lindokuhle_Mkhwanazi> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Richards_Bay> .
+<http://dbpedia.org/resource/Chi_Minghua> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Defender_(association_football)> .
+<http://dbpedia.org/resource/Morten_Hamm> <http://xmlns.com/foaf/0.1/surname> "Hamm " .
+<http://dbpedia.org/resource/Josip_Skoblar> <http://www.w3.org/2000/01/rdf-schema#label> "Josip Skoblar " .
+<http://dbpedia.org/resource/Beth_Cordingly> <http://dbpedia.org/ontology/birthDate> "1976-11-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Billy_Mwanza> <http://xmlns.com/foaf/0.1/givenName> "Billy " .
+<http://dbpedia.org/resource/Lawrie_Dudfield> <http://xmlns.com/foaf/0.1/surname> "Dudfield"@en .
+<http://dbpedia.org/resource/Karim_Kerkar> <http://dbpedia.org/ontology/birthDate> "1977-01-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/John_McGinley_(footballer)> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Sunderland_A.F.C.> .
+<http://dbpedia.org/resource/Merab_Jordania> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Joachim_Adukor> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Gefle_IF> .
+<http://dbpedia.org/resource/Barry_Ferguson_(Irish_footballer)> <http://dbpedia.org/ontology/Person/height> "190.5"^^<http://dbpedia.org/datatype/centimetre> .
+<http://dbpedia.org/resource/Ron_Hillyard> <http://xmlns.com/foaf/0.1/surname> "Hillyard"@en .
+<http://dbpedia.org/resource/Maxi_Viera> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Midfielder> .
+<http://dbpedia.org/resource/Emmanuel_Ekpo> <http://dbpedia.org/ontology/birthYear> "1987-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Pompano_Estates,_Florida> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Florida> .
+<http://dbpedia.org/resource/FC_Krystal_Oleksandria> <http://www.w3.org/2000/01/rdf-schema#label> "FC Krystal Oleksandria " .
+<http://dbpedia.org/resource/Graham_Lancashire> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Gustavo_Bou> <http://dbpedia.org/ontology/birthDate> "1990-02-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Sofronis_Avgousti> <http://www.w3.org/2000/01/rdf-schema#label> "Sofronis Avgousti " .
+<http://dbpedia.org/resource/Philadelphia_KiXX> <http://www.w3.org/2000/01/rdf-schema#label> "Philadelphia KiXX " .
+<http://dbpedia.org/resource/Almuth_Schult> <http://dbpedia.org/ontology/birthYear> "1991-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Alberto_Quintano> <http://dbpedia.org/ontology/height> "1.84"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Davie_Cooper> <http://dbpedia.org/ontology/birthDate> "1956-02-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Sten_Ove_Eike> <http://dbpedia.org/ontology/birthYear> "1981-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Jorge_Carrascosa> <http://xmlns.com/foaf/0.1/givenName> "Jorge " .
+<http://dbpedia.org/resource/Finley_Township,_Scott_County,_Indiana> <http://www.w3.org/2000/01/rdf-schema#label> "Finley Township, Scott County, Indiana " .
+<http://dbpedia.org/resource/Marco_Giambruno> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Palermo> .
+<http://dbpedia.org/resource/Walter_Harris_(football_manager)> <http://purl.org/dc/elements/1.1/description> "English footballer and manager " .
+<http://dbpedia.org/resource/Martin_Kree> <http://www.w3.org/2000/01/rdf-schema#label> "Martin Kree"@en .
+<http://dbpedia.org/resource/Katha,_Burma> <http://www.w3.org/2000/01/rdf-schema#label> "Katha, Burma " .
+<http://dbpedia.org/resource/Etchu_Tabe> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Cameroon> .
+<http://dbpedia.org/resource/Jonas_Vandermarliere> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Bruges> .
+<http://dbpedia.org/resource/Abbas_Qarib> <http://dbpedia.org/ontology/birthYear> "1916-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Nicklas_Bergh> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Nicklas_Bergh__6> .
+<http://dbpedia.org/resource/Khano_Smith> <http://purl.org/dc/elements/1.1/description> "Bermudian footballer " .
+<http://dbpedia.org/resource/Bruno_Pezzey> <http://dbpedia.org/ontology/deathPlace> <http://dbpedia.org/resource/Innsbruck> .
+<http://dbpedia.org/resource/Pope_Pius_X> <http://www.w3.org/2000/01/rdf-schema#label> "Pope Pius X " .
+<http://dbpedia.org/resource/Ryan_Stewart_(footballer)> <http://dbpedia.org/ontology/height> "1.7272"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Martin_Nash_(soccer)> <http://dbpedia.org/ontology/birthDate> "1975-12-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Mirko_Boland> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Eintracht_Braunschweig> .
+<http://dbpedia.org/resource/Kyle_Yamada> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Midfielder> .
+<http://dbpedia.org/resource/Tiago_Alves_Sales> <http://www.w3.org/2000/01/rdf-schema#label> "Tiago Alves Sales " .
+<http://dbpedia.org/resource/Harold_Williams_(footballer)> <http://www.w3.org/2000/01/rdf-schema#label> "Harold Williams (footballer) " .
+<http://dbpedia.org/resource/Mauro_Biello> <http://purl.org/dc/elements/1.1/description> "Canadian soccer player " .
+<http://dbpedia.org/resource/Paulo_Costinha> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Goalkeeper_(association_football)> .
+<http://dbpedia.org/resource/Psychological_Types> <http://www.w3.org/2000/01/rdf-schema#label> "Psychological Types " .
+<http://dbpedia.org/resource/Curtis_Main> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Curtis_Main__3> .
+<http://dbpedia.org/resource/Ulrik_Arneberg_(footballer)> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Rustam_Durmonov> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Paul_Mullin_(footballer,_born_1974)> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/John_Fitzgerald_(footballer)> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Cabinteely> .
+<http://dbpedia.org/resource/Dean_Oliver_(footballer)> <http://dbpedia.org/ontology/birthYear> "1987-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Algoa,_Texas> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Galveston_County,_Texas> .
+<http://dbpedia.org/resource/Paul_McGowan_(footballer)> <http://dbpedia.org/ontology/birthDate> "1987-10-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Bandon,_Oregon> <http://dbpedia.org/ontology/populationTotal> "3066"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/resource/Adrian_Iordache> <http://dbpedia.org/ontology/birthYear> "1980-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Philip_Hellquist> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Vasalunds_IF> .
+<http://dbpedia.org/resource/Adam_Farley> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Liverpool> .
+<http://dbpedia.org/resource/Mohd_Daudsu_Jamaluddin> <http://www.w3.org/2000/01/rdf-schema#label> "Mohd Daudsu Jamaluddin " .
+<http://dbpedia.org/resource/Roman_Maksymyuk> <http://dbpedia.org/ontology/birthYear> "1974-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Billy_Woods_(New_Zealand_footballer)> <http://www.w3.org/2000/01/rdf-schema#label> "Billy Woods (New Zealand footballer) " .
+<http://dbpedia.org/resource/Giacomo_Tedesco> <http://xmlns.com/foaf/0.1/givenName> "Giacomo " .
+<http://dbpedia.org/resource/Poultney_(village),_Vermont> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Rutland_County,_Vermont> .
+<http://dbpedia.org/resource/Steven_Gray_(footballer)> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Adam_Wolanin> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Michael_Kyd> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/England> .
+<http://dbpedia.org/resource/Ivica_Osim> <http://xmlns.com/foaf/0.1/surname> "Osim " .
+<http://dbpedia.org/resource/Iain_Hume> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Barnsley_F.C.> .
+<http://dbpedia.org/resource/Baven_Penton> <http://xmlns.com/foaf/0.1/surname> "Penton " .
+<http://dbpedia.org/resource/Oupa_Manyisa> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Orlando_Pirates> .
+<http://dbpedia.org/resource/Gilles_Yapi_Yapo> <http://www.w3.org/2000/01/rdf-schema#label> "Gilles Yapi Yapo"@en .
+<http://dbpedia.org/resource/Joseph_Kabwe> <http://www.w3.org/2000/01/rdf-schema#label> "Joseph Kabwe " .
+<http://dbpedia.org/resource/Kern_Miller> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Xabi_Prieto> <http://purl.org/dc/elements/1.1/description> "Spanish footballer"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/resource/Engin_Baytar> <http://xmlns.com/foaf/0.1/givenName> "Engin " .
+<http://dbpedia.org/resource/John_Radford_(footballer)> <http://dbpedia.org/ontology/managerClub> <http://dbpedia.org/resource/Bishop's_Stortford_F.C.> .
+<http://dbpedia.org/resource/Alexandre_Oukidja> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Alexandre_Oukidja__2> .
+<http://dbpedia.org/resource/Lunds_BK> <http://www.w3.org/2000/01/rdf-schema#label> "Lunds BK " .
+<http://dbpedia.org/resource/Carlyle_Mitchell> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Arima> .
+<http://dbpedia.org/resource/Rodrigue_Dikaba> <http://dbpedia.org/ontology/birthYear> "1985-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Ali_Krieger> <http://www.w3.org/2000/01/rdf-schema#label> "Ali Krieger " .
+<http://dbpedia.org/resource/Terry_Gornell> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Accrington_Stanley_F.C.> .
+<http://dbpedia.org/resource/Dominican_Republic_national_football_team> <http://www.w3.org/2000/01/rdf-schema#label> "Dominican Republic national football team " .
+<http://dbpedia.org/resource/Tom_Galati> <http://xmlns.com/foaf/0.1/givenName> "Tom"@en .
+<http://dbpedia.org/resource/Stuart_Davies> <http://dbpedia.org/ontology/Person/height> "152.4"^^<http://dbpedia.org/datatype/centimetre> .
+<http://dbpedia.org/resource/William_Whiting_(footballer)> <http://xmlns.com/foaf/0.1/surname> "Whiting " .
+<http://dbpedia.org/resource/Jordan_Hadfield> <http://dbpedia.org/ontology/Person/height> "175.26"^^<http://dbpedia.org/datatype/centimetre> .
+<http://dbpedia.org/resource/Roger_Claeys> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Cercle_Brugge_K.S.V.> .
+<http://dbpedia.org/resource/Dean_Chandler> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/England_national_football_team> .
+<http://dbpedia.org/resource/George_Hunt_(footballer,_born_1910)> <http://xmlns.com/foaf/0.1/surname> "Hunt " .
+<http://dbpedia.org/resource/Steven_O'Dor> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Steven_O'Dor__10> .
+<http://dbpedia.org/resource/Naoki_Imaya> <http://dbpedia.org/ontology/birthDate> "1980-06-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Tony_Agana> <http://dbpedia.org/ontology/birthDate> "1963-10-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Warren_Cummings> <http://xmlns.com/foaf/0.1/surname> "Cummings " .
+<http://dbpedia.org/resource/Vitali_Nikulkin> <http://dbpedia.org/ontology/managerClub> <http://dbpedia.org/resource/FC_Mordovia_Saransk> .
+<http://dbpedia.org/resource/Oleg_Veretennikov> <http://xmlns.com/foaf/0.1/surname> "Veretennikov " .
+<http://dbpedia.org/resource/Tremestieri_Etneo> <http://www.w3.org/2000/01/rdf-schema#label> "Tremestieri Etneo " .
+<http://dbpedia.org/resource/Rashid_Yussuff> <http://dbpedia.org/ontology/Person/height> "185.0"^^<http://dbpedia.org/datatype/centimetre> .
+<http://dbpedia.org/resource/Dean_Crowe> <http://www.w3.org/2000/01/rdf-schema#label> "Dean Crowe " .
+<http://dbpedia.org/resource/Ilias_Anastasakos> <http://xmlns.com/foaf/0.1/surname> "Anastasakos " .
+<http://dbpedia.org/resource/Ciprian_Dinu> <http://xmlns.com/foaf/0.1/givenName> "Ciprian " .
+<http://dbpedia.org/resource/Koji_Yamase> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Sapporo> .
+<http://dbpedia.org/resource/Romik_Khachatryan> <http://dbpedia.org/ontology/birthYear> "1978-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Attilio_Nicodemo> <http://dbpedia.org/ontology/birthYear> "1974-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Christian_Tiffert> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Christian_Tiffert__5> .
+<http://dbpedia.org/resource/Vik,_Vestnes> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "62.6152777778"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Fizi_Territory> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.30111111111"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Simon_Farnworth> <http://purl.org/dc/elements/1.1/description> "English footballer " .
+<http://dbpedia.org/resource/Fabio_Borini> <http://www.w3.org/2000/01/rdf-schema#label> "Fabio Borini " .
+<http://dbpedia.org/resource/Nicola_Ciotola> <http://dbpedia.org/ontology/birthDate> "1984-03-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Dominique_van_Dijk> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/John_Goodall> <http://dbpedia.org/ontology/managerClub> <http://dbpedia.org/resource/Watford_F.C.> .
+<http://dbpedia.org/resource/Daniel_Redmond> <http://purl.org/dc/elements/1.1/description> "English professional footballer " .
+<http://dbpedia.org/resource/Bilal_Mohammed> <http://dbpedia.org/ontology/number> "26"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Aboubakar_Oumarou> <http://dbpedia.org/ontology/height> "1.82"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Matthias_Scherz> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Forward_(association_football)> .
+<http://dbpedia.org/resource/Brent_Hayden> <http://dbpedia.org/ontology/Person/weight> "86.184"^^<http://dbpedia.org/datatype/kilogram> .
+<http://dbpedia.org/resource/Gideon_Baah> <http://dbpedia.org/ontology/birthYear> "1991-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Mauricio_Wright> <http://dbpedia.org/ontology/managerClub> <http://dbpedia.org/resource/Puntarenas_F.C.> .
+<http://dbpedia.org/resource/Mark_Shail> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Eddie_Barks> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Nottingham_Forest_F.C.> .
+<http://dbpedia.org/resource/Mick_Speight> <http://xmlns.com/foaf/0.1/givenName> "Mick " .
+<http://dbpedia.org/resource/Michele_Ferri> <http://dbpedia.org/ontology/birthDate> "1981-05-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Ehud_Ben_Tuvim> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Ehud_Ben_Tuvim__3> .
+<http://dbpedia.org/resource/Ayanda_Patosi> <http://www.w3.org/2000/01/rdf-schema#label> "Ayanda Patosi " .
+<http://dbpedia.org/resource/Diego_Fabbrini> <http://dbpedia.org/ontology/birthDate> "1990-07-31"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Kim_Dae-eui> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Forward_(association_football)> .
+<http://dbpedia.org/resource/Brandon_Tyler> <http://dbpedia.org/ontology/height> "1.7272"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Nektarios_Alexandrou> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Nicosia> .
+<http://dbpedia.org/resource/David_Bradford_(footballer)> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/David_Bradford_(footballer)__1> .
+<http://dbpedia.org/resource/Vladimir_Volkov> <http://dbpedia.org/ontology/birthYear> "1986-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Adam_Woodyatt> <http://dbpedia.org/ontology/birthYear> "1968-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Fernando_Vega> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Arahal> .
+<http://dbpedia.org/resource/Rijau> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Nigeria> .
+<http://dbpedia.org/resource/Almen_Abdi> <http://xmlns.com/foaf/0.1/surname> "Abdi " .
+<http://dbpedia.org/resource/Fonds-Verrettes> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Ouest_Department> .
+<http://dbpedia.org/resource/Andy_Dowie> <http://dbpedia.org/ontology/number> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Maurie_Sheehy> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Rob_Quinn> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Rob_Quinn__11> .
+<http://dbpedia.org/resource/Walid_Badir> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Israel_national_football_team> .
+<http://dbpedia.org/resource/Bagno_a_Ripoli> <http://dbpedia.org/ontology/populationTotal> "25767"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/resource/Richard_Sneekes> <http://dbpedia.org/ontology/Person/height> "180.34"^^<http://dbpedia.org/datatype/centimetre> .
+<http://dbpedia.org/resource/David_Magowan> <http://xmlns.com/foaf/0.1/surname> "Magowan " .
+<http://dbpedia.org/resource/Emerson_Cesario> <http://xmlns.com/foaf/0.1/givenName> "Emerson " .
+<http://dbpedia.org/resource/Iain_Hume> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Edinburgh> .
+<http://dbpedia.org/resource/Osahon_Eboigbe> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Forward_(association_football)> .
+<http://dbpedia.org/resource/Etowah,_North_Carolina> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-82.5969444444"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Sofiene_Zaaboub> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Midfielder> .
+<http://dbpedia.org/resource/Hocking_Township,_Fairfield_County,_Ohio> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Fairfield_County,_Ohio> .
+<http://dbpedia.org/resource/Li_Haiqiang> <http://dbpedia.org/ontology/birthDate> "1977-05-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Teruo_Iwamoto> <http://dbpedia.org/ontology/birthYear> "1972-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Jaime_Sarlanga> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Frank_Grayer> <http://www.w3.org/2000/01/rdf-schema#label> "Frank Grayer " .
+<http://dbpedia.org/resource/Ike_MacKay> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Ike_MacKay__1> .
+<http://dbpedia.org/resource/Jim_Shirra> <http://dbpedia.org/ontology/birthYear> "1950-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Isaac_Pupo> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Playmaker> .
+<http://dbpedia.org/resource/Djupadal> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "55.5741666667"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Arie_Haan> <http://dbpedia.org/ontology/birthDate> "1948-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Giovanni_Bruno> <http://www.w3.org/2000/01/rdf-schema#label> "Giovanni Bruno " .
+<http://dbpedia.org/resource/Grant_Gibbs> <http://dbpedia.org/ontology/birthDate> "1964-05-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Neil_Shipperley> <http://dbpedia.org/ontology/birthDate> "1974-10-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Parviz_Ghelichkhani> <http://dbpedia.org/ontology/birthDate> "1945-12-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/John_Hartson> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Swansea> .
+<http://dbpedia.org/resource/William_McLachlan_(footballer)> <http://xmlns.com/foaf/0.1/givenName> "William " .
+<http://dbpedia.org/resource/Frank_Leboeuf> <http://xmlns.com/foaf/0.1/surname> "Leboeuf " .
+<http://dbpedia.org/resource/Peter_Kay> <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Observational_comedy> .
+<http://dbpedia.org/resource/Alan_Slough> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Midfielder> .
+<http://dbpedia.org/resource/Tarek_Yehia> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Zamalek_SC> .
+<http://dbpedia.org/resource/Morten_Moldskred> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Rosenborg_BK> .
+<http://dbpedia.org/resource/Toru_Araiba> <http://xmlns.com/foaf/0.1/surname> "Araiba " .
+<http://dbpedia.org/resource/Dobrodol_(Irig)> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "45.0333333333"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Irmantas_Zelmikas> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Defender_(association_football)> .
+<http://dbpedia.org/resource/Joe_Burchell> <http://dbpedia.org/ontology/deathYear> "1932-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Firuzabad,_Fars> <http://www.w3.org/2000/01/rdf-schema#label> "Firuzabad, Fars " .
+<http://dbpedia.org/resource/Claudio_Della_Penna> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Stephen_Geoghegan> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Kevin_Guppy> <http://www.w3.org/2000/01/rdf-schema#label> "Kevin Guppy " .
+<http://dbpedia.org/resource/Amadou_Samb> <http://dbpedia.org/ontology/Person/height> "187.0"^^<http://dbpedia.org/datatype/centimetre> .
+<http://dbpedia.org/resource/Dean_Pooley> <http://purl.org/dc/elements/1.1/description> "Footballer " .
+<http://dbpedia.org/resource/Carlos_Alfaro_Moreno> <http://purl.org/dc/elements/1.1/description> "Argentine footballer " .
+<http://dbpedia.org/resource/Ivahona> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-23.45"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Wayne_O'Sullivan> <http://xmlns.com/foaf/0.1/givenName> "Wayne " .
+<http://dbpedia.org/resource/Lucas_Malacarne> <http://dbpedia.org/ontology/birthDate> "1988-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Bryan_Meredith> <http://xmlns.com/foaf/0.1/surname> "Meredith"@en .
+<http://dbpedia.org/resource/M._Karathu> <http://xmlns.com/foaf/0.1/givenName> "M " .
+<http://dbpedia.org/resource/Ronny_Hodel> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/FC_Basel> .
+<http://dbpedia.org/resource/Emil_Lyng> <http://dbpedia.org/ontology/birthDate> "1989-08-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Kieran_O'Regan> <http://dbpedia.org/ontology/birthDate> "1963-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Alex_Cordaz> <http://dbpedia.org/ontology/birthDate> "1983-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Cleobury_North> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-2.566667"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Brian_Baloyi> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Brian_Baloyi__5> .
+<http://dbpedia.org/resource/Tony_Ward_(rugby_union)> <http://www.w3.org/2000/01/rdf-schema#label> "Tony Ward (rugby union) " .
+<http://dbpedia.org/resource/Charles_Lewis_(rugby_union)> <http://dbpedia.org/ontology/deathDate> "1923-05-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Jewell,_Kansas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "39.6708333333"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Bo_Oshoniyi> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Bo_Oshoniyi__6> .
+<http://dbpedia.org/resource/Liam_Kearney> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/David_Duke_(footballer)> <http://dbpedia.org/ontology/birthDate> "1978-12-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Tiziano_Maggiolini> <http://dbpedia.org/ontology/Person/height> "180.0"^^<http://dbpedia.org/datatype/centimetre> .
+<http://dbpedia.org/resource/Helmi_Remeli> <http://purl.org/dc/elements/1.1/description> "Malaysian footballer " .
+<http://dbpedia.org/resource/Marloes_de_Boer> <http://www.w3.org/2000/01/rdf-schema#label> "Marloes de Boer " .
+<http://dbpedia.org/resource/Juan_Pablo_Francia> <http://xmlns.com/foaf/0.1/surname> "Francia " .
+<http://dbpedia.org/resource/Omero_Tognon> <http://dbpedia.org/ontology/deathYear> "1990-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Daniel_Ginczek> <http://dbpedia.org/ontology/height> "1.91"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Jason_Kutney> <http://dbpedia.org/ontology/birthDate> "1981-09-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Mouhamadou_Dabo> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Sevilla_FC> .
+<http://dbpedia.org/resource/Paul-Georges_Ntep> <http://www.w3.org/2000/01/rdf-schema#label> "Paul-Georges Ntep " .
+<http://dbpedia.org/resource/Alun_Armstrong_(footballer)> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Forward_(association_football)> .
+<http://dbpedia.org/resource/Matteo_Bruscagin> <http://dbpedia.org/ontology/birthDate> "1989-08-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Stefan_Bidstrup> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Stefan_Bidstrup__8> .
+<http://dbpedia.org/resource/Denton,_North_Yorkshire> <http://www.w3.org/2000/01/rdf-schema#label> "Denton, North Yorkshire " .
+<http://dbpedia.org/resource/Jerry_Taihuttu> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Jerry_Taihuttu__3> .
+<http://dbpedia.org/resource/Georgi_Karaneychev> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Forward_(association_football)> .
+<http://dbpedia.org/resource/Alusine_Kamara> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/FC_Kallon> .
+<http://dbpedia.org/resource/Vladimir_Kabranov> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Forward_(association_football)> .
+<http://dbpedia.org/resource/Nathan_Koo-Boothe> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Westminster> .
+<http://dbpedia.org/resource/Brett_Branan> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Brett_Branan__1> .
+<http://dbpedia.org/resource/Yellow_Springs,_Ohio> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Ohio> .
+<http://dbpedia.org/resource/Conor_Doyle> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/McKinney,_Texas> .
+<http://dbpedia.org/resource/Davide_Matteini> <http://dbpedia.org/ontology/birthDate> "1982-05-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Imad_Khalili> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Marcel_Witeczek> <http://xmlns.com/foaf/0.1/givenName> "Marcel " .
+<http://dbpedia.org/resource/Ladjie_Soukouna> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Defender_(association_football)> .
+<http://dbpedia.org/resource/Rob_Rensenbrink> <http://dbpedia.org/ontology/height> "1.78"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Solly_Smith> <http://www.w3.org/2000/01/rdf-schema#label> "Solly Smith " .
+<http://dbpedia.org/resource/Mapou_Yanga-Mbiwa> <http://www.w3.org/2000/01/rdf-schema#label> "Mapou Yanga-Mbiwa " .
+<http://dbpedia.org/resource/Atiba_Harris> <http://xmlns.com/foaf/0.1/surname> "Harris " .
+<http://dbpedia.org/resource/Pedro_Luis_Jaro> <http://purl.org/dc/elements/1.1/description> "Spanish football player/coach " .
+<http://dbpedia.org/resource/Lawrence_Lozzano> <http://dbpedia.org/ontology/birthDate> "1970-07-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/IL_Runar> <http://www.w3.org/2000/01/rdf-schema#label> "IL Runar " .
+<http://dbpedia.org/resource/Danny_Muller> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/K._Boom_F.C.> .
+<http://dbpedia.org/resource/Neil_Harlock> <http://www.w3.org/2000/01/rdf-schema#label> "Neil Harlock " .
+<http://dbpedia.org/resource/Maksim_Skavysh> <http://purl.org/dc/elements/1.1/description> "Belarusian footballer " .
+<http://dbpedia.org/resource/Kamil_Drygas> <http://dbpedia.org/ontology/birthDate> "1991-09-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Adrian_Viveash> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Defender_(association_football)> .
+<http://dbpedia.org/resource/Pablo_Antonio_Gabas> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Pablo_Antonio_Gabas__10> .
+<http://dbpedia.org/resource/Nathan_Talbott> <http://dbpedia.org/ontology/birthDate> "1984-10-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Dominic_Blizzard> <http://www.w3.org/2000/01/rdf-schema#label> "Dominic Blizzard " .
+<http://dbpedia.org/resource/Jimmy_Hernon> <http://dbpedia.org/ontology/birthDate> "1924-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Mohd_Nizaruddin_Yusof> <http://purl.org/dc/elements/1.1/description> "Malaysian footballer " .
+<http://dbpedia.org/resource/Cameron_Hepple> <http://dbpedia.org/ontology/height> "1.7526"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Lazaros_Fotias> <http://xmlns.com/foaf/0.1/surname> "Fotias " .
+<http://dbpedia.org/resource/Miguel_Rojas> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Aipe> .
+<http://dbpedia.org/resource/Eve_Badana> <http://dbpedia.org/ontology/birthDate> "1993-07-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Jean_Fernandez> <http://www.w3.org/2000/01/rdf-schema#label> "Jean Fernandez"@en .
+<http://dbpedia.org/resource/Amedeo_Calliari> <http://www.w3.org/2000/01/rdf-schema#label> "Amedeo Calliari " .
+<http://dbpedia.org/resource/Nosrat_Irandoost> <http://dbpedia.org/ontology/managerClub> <http://dbpedia.org/resource/F.C._Shahrdari_Bandar_Abbas> .
+<http://dbpedia.org/resource/James_McArthur> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Wigan_Athletic_F.C.> .
+<http://dbpedia.org/resource/Dino_Delevski> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Forward_(association_football)> .
+<http://dbpedia.org/resource/Don_Megson> <http://dbpedia.org/ontology/managerClub> <http://dbpedia.org/resource/Bristol_Rovers_F.C.> .
+<http://dbpedia.org/resource/Mike_Heald> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Midfielder> .
+<http://dbpedia.org/resource/Southport_(CDP),_New_York> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Emmanuel_Bourgaud> <http://xmlns.com/foaf/0.1/surname> "Bourgaud " .
+<http://dbpedia.org/resource/Pierre,_South_Dakota> <http://www.w3.org/2000/01/rdf-schema#label> "Pierre, South Dakota " .
+<http://dbpedia.org/resource/Thomas_Nordahl> <http://xmlns.com/foaf/0.1/givenName> "Thomas " .
+<http://dbpedia.org/resource/Sainey_Nyassi> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Sainey_Nyassi__6> .
+<http://dbpedia.org/resource/Nando_Rafael> <http://xmlns.com/foaf/0.1/surname> "Rafael " .
+<http://dbpedia.org/resource/Mohammed_Gargo> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Defender_(association_football)> .
+<http://dbpedia.org/resource/Luke_Shaw> <http://xmlns.com/foaf/0.1/givenName> "Luke " .
+<http://dbpedia.org/resource/Didier_Drogba> <http://www.w3.org/2000/01/rdf-schema#label> "Didier Drogba " .
+<http://dbpedia.org/resource/Andrew_McCreadie> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Andrew_McCreadie__4> .
+<http://dbpedia.org/resource/Fabio_Meduri> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Fabio_Meduri__6> .
+<http://dbpedia.org/resource/Adam_Mickiewicz> <http://dbpedia.org/ontology/language> <http://dbpedia.org/resource/Polish_language> .
+<http://dbpedia.org/resource/Sandra_Vilanova> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Midfielder> .
+<http://dbpedia.org/resource/Henry_Hamilton_(footballer)> <http://purl.org/dc/elements/1.1/description> "English footballer " .
+<http://dbpedia.org/resource/John_Linacre> <http://xmlns.com/foaf/0.1/surname> "Linacre " .
+<http://dbpedia.org/resource/Shady_Mohamed> <http://dbpedia.org/ontology/birthYear> "1977-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Zong_Lei> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Tianjin> .
+<http://dbpedia.org/resource/Bel-Aire,_Calgary> <http://dbpedia.org/ontology/populationTotal> "494"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/resource/Les_Chapman> <http://dbpedia.org/ontology/managerClub> <http://dbpedia.org/resource/Stockport_County_F.C.> .
+<http://dbpedia.org/resource/Tom_Curle> <http://www.w3.org/2000/01/rdf-schema#label> "Tom Curle " .
+<http://dbpedia.org/resource/Moritz_Stoppelkamp> <http://purl.org/dc/elements/1.1/description> "German footballer " .
+<http://dbpedia.org/resource/Ralf_Falkenmayer> <http://xmlns.com/foaf/0.1/surname> "Falkenmayer " .
+<http://dbpedia.org/resource/Sast> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Iran> .
+<http://dbpedia.org/resource/Edmilson_Marques_Pardal> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Forward_(association_football)> .
+<http://dbpedia.org/resource/Sebring,_Ohio> <http://dbpedia.org/ontology/populationTotal> "4420"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/resource/Glenn_Dunlop> <http://xmlns.com/foaf/0.1/givenName> "Glenn " .
+<http://dbpedia.org/resource/Costas_Malekkos> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Apollon_Limassol> .
+<http://dbpedia.org/resource/Jervis_Drummond> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Jervis_Drummond__2> .
+<http://dbpedia.org/resource/Martin_Munnelly> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/New_York_Red_Bulls> .
+<http://dbpedia.org/resource/Mansoor_Al-Harbi> <http://xmlns.com/foaf/0.1/surname> "Al-Harbi " .
+<http://dbpedia.org/resource/Kyle_Patterson> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Midfielder> .
+<http://dbpedia.org/resource/Terence_Makengo> <http://www.w3.org/2000/01/rdf-schema#label> "Terence Makengo"@en .
+<http://dbpedia.org/resource/Omid_Nazari> <http://dbpedia.org/ontology/birthDate> "1991-04-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Federico_Almerares> <http://www.w3.org/2000/01/rdf-schema#label> "Federico Almerares " .
+<http://dbpedia.org/resource/Alessio_Campagnacci> <http://www.w3.org/2000/01/rdf-schema#label> "Alessio Campagnacci " .
+<http://dbpedia.org/resource/Rimbo> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "59.75"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Ali_Ceesay> <http://xmlns.com/foaf/0.1/surname> "Ceesay " .
+<http://dbpedia.org/resource/Andre_Kona_N'Gole> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Forward_(association_football)> .
+<http://dbpedia.org/resource/Krzysztof_Ulatowski> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/MKS_Kluczbork> .
+<http://dbpedia.org/resource/Yoshikiyo_Kuboyama> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Yaizu,_Shizuoka> .
+<http://dbpedia.org/resource/Ryan_Kinne> <http://dbpedia.org/ontology/height> "1.7272"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Amir_Vaziri> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Amir_Vaziri__4> .
+<http://dbpedia.org/resource/Antonio_Pacheco_D'Agosti> <http://www.w3.org/2000/01/rdf-schema#label> "Antonio Pacheco D'Agosti"@en .
+<http://dbpedia.org/resource/Sergey_Yaromko> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Peter_Kay> <http://dbpedia.org/ontology/viafId> "47922577"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/resource/Josh_Williams_(soccer)> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Josh_Williams_(soccer)__1> .
+<http://dbpedia.org/resource/Mick_Hoy_(footballer)> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Tandragee_Rovers_F.C.> .
+<http://dbpedia.org/resource/Blennerhassett,_West_Virginia> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Wood_County,_West_Virginia> .
+<http://dbpedia.org/resource/Bryan_Smith_(footballer)> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Defender_(association_football)> .
+<http://dbpedia.org/resource/Abu_Bakar_Fadzim> <http://dbpedia.org/ontology/managerClub> <http://dbpedia.org/resource/Perak_FA> .
+<http://dbpedia.org/resource/Frank_Temile> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Anvarjon_Soliev> <http://xmlns.com/foaf/0.1/surname> "Soliev " .
+<http://dbpedia.org/resource/Muamet_Asanovski> <http://dbpedia.org/ontology/birthDate> "1991-07-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Fuat_Usta> <http://www.w3.org/2000/01/rdf-schema#label> "Fuat Usta " .
+<http://dbpedia.org/resource/Vito_Grieco> <http://dbpedia.org/ontology/birthDate> "1971-02-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Tony_Nocita> <http://xmlns.com/foaf/0.1/givenName> "Tony " .
+<http://dbpedia.org/resource/Manuel_Daffara> <http://purl.org/dc/elements/1.1/description> "Italian footballer " .
+<http://dbpedia.org/resource/Tiko_United> <http://www.w3.org/2000/01/rdf-schema#label> "Tiko United " .
+<http://dbpedia.org/resource/Daniel_Mojsov> <http://xmlns.com/foaf/0.1/givenName> "Daniel " .
+<http://dbpedia.org/resource/Dmytro_Nepohodov> <http://dbpedia.org/ontology/birthDate> "1988-02-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Margaret_Cho> <http://dbpedia.org/ontology/birthName> "Margaret Moran Cho " .
+<http://dbpedia.org/resource/Shi_Jun> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Serhiy_Kovalets> <http://dbpedia.org/ontology/managerClub> <http://dbpedia.org/resource/FC_Metalist_Kharkiv> .
+<http://dbpedia.org/resource/Matt_Jarvis> <http://xmlns.com/foaf/0.1/surname> "Jarvis " .
+<http://dbpedia.org/resource/Alassane_N'Dour> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Midfielder> .
+<http://dbpedia.org/resource/Radjin_de_Haan> <http://xmlns.com/foaf/0.1/surname> "Haan " .
+<http://dbpedia.org/resource/Michael_Bradley_(soccer)> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Midfielder> .
+<http://dbpedia.org/resource/Centerton,_Indiana> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-86.395"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/West_Walton> <http://dbpedia.org/ontology/populationTotal> "1659"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/resource/Des_Moines_River_Township,_Murray_County,_Minnesota> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Minnesota> .
+<http://dbpedia.org/resource/Humphrey_Rudge> <http://xmlns.com/foaf/0.1/givenName> "Humphrey " .
+<http://dbpedia.org/resource/Wascott,_Wisconsin> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Wisconsin> .
+<http://dbpedia.org/resource/Vladimir_But> <http://dbpedia.org/ontology/birthYear> "1977-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Daniel_Kiss_(footballer)> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/PFC_Levski_Sofia> .
+<http://dbpedia.org/resource/Pauline_Crammer> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Pauline_Crammer__5> .
+<http://dbpedia.org/resource/George_Taratsides> <http://purl.org/dc/elements/1.1/description> "American soccer player " .
+<http://dbpedia.org/resource/Borja_Granero> <http://www.w3.org/2000/01/rdf-schema#label> "Borja Granero " .
+<http://dbpedia.org/resource/Dimitri_Foulquier> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Defender_(association_football)> .
+<http://dbpedia.org/resource/Alessio_Scarpi> <http://www.w3.org/2000/01/rdf-schema#label> "Alessio Scarpi " .
+<http://dbpedia.org/resource/Jerry_Morgan> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Sid_Rawlings> <http://dbpedia.org/ontology/birthDate> "1913-05-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/FC_Avangard_Kursk> <http://www.w3.org/2000/01/rdf-schema#label> "FC Avangard Kursk " .
+<http://dbpedia.org/resource/Jordan_Hadfield> <http://www.w3.org/2000/01/rdf-schema#label> "Jordan Hadfield " .
+<http://dbpedia.org/resource/Kelanlu,_northern_Ararat> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "44.3327777778"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Ashley_Fickling> <http://purl.org/dc/elements/1.1/description> "English footballer " .
+<http://dbpedia.org/resource/Alessandro_Diamanti> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Alessandro_Diamanti__1> .
+<http://dbpedia.org/resource/David_Aganzo> <http://www.w3.org/2000/01/rdf-schema#label> "David Aganzo " .
+<http://dbpedia.org/resource/Norbert_Eder> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Defender_(association_football)> .
+<http://dbpedia.org/resource/Redzuan_Mohd_Radzy> <http://xmlns.com/foaf/0.1/surname> "Radzy"@en .
+<http://dbpedia.org/resource/Joachim_Marx> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Joachim_Marx__6> .
+<http://dbpedia.org/resource/Otis_Roberts> <http://dbpedia.org/ontology/birthYear> "1968-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Cyril_Watkin> <http://dbpedia.org/ontology/birthYear> "1926-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Allan_Taylor_(footballer)> <http://dbpedia.org/ontology/birthDate> "1905-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Ledio_Pano> <http://xmlns.com/foaf/0.1/givenName> "Pano " .
+<http://dbpedia.org/resource/Flemming_Christensen> <http://www.w3.org/2000/01/rdf-schema#label> "Flemming Christensen"@en .
+<http://dbpedia.org/resource/Kevin_Keegan> <http://xmlns.com/foaf/0.1/givenName> "Kevin"@en .
+<http://dbpedia.org/resource/Sander_Westerveld> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Goalkeeper_(association_football)> .
+<http://dbpedia.org/resource/Carlos_Metidieri> <http://xmlns.com/foaf/0.1/surname> "Metidieri " .
+<http://dbpedia.org/resource/Nakasongola> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Uganda> .
+<http://dbpedia.org/resource/Adrien_Silva> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Adrien_Silva__1> .
+<http://dbpedia.org/resource/Chi_Shangbin> <http://dbpedia.org/ontology/managerClub> <http://dbpedia.org/resource/Gamba_Osaka> .
+<http://dbpedia.org/resource/Ian_Atkins> <http://dbpedia.org/ontology/birthDate> "1957-01-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Rangsan_Iam-Wiroj> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Defender_(association_football)> .
+<http://dbpedia.org/resource/Hannu_Tihinen> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Palloseura_Kemi_Kings> .
+<http://dbpedia.org/resource/Elio_Rojas> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Dominican_Republic> .
+<http://dbpedia.org/resource/Hussein_Abdul-Wahed> <http://xmlns.com/foaf/0.1/givenName> "Hussein " .
+<http://dbpedia.org/resource/Eiji_Kawashima> <http://xmlns.com/foaf/0.1/givenName> "Eiji " .
+<http://dbpedia.org/resource/Serghei_Alexeev> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/FC_Tiraspol> .
+<http://dbpedia.org/resource/Albanian_language> <http://www.w3.org/2000/01/rdf-schema#label> "Albanian language " .
+<http://dbpedia.org/resource/Andreas_Kyprianou> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Larnaca> .
+<http://dbpedia.org/resource/Didcot_Town_F.C.> <http://www.w3.org/2000/01/rdf-schema#label> "Didcot Town F.C. " .
+<http://dbpedia.org/resource/Doug_Lapwood> <http://xmlns.com/foaf/0.1/givenName> "Derek " .
+<http://dbpedia.org/resource/Stoyan_Stavrev> <http://xmlns.com/foaf/0.1/surname> "Stavrev " .
+<http://dbpedia.org/resource/Thomas_Savage_(novelist)> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/Annie_Proulx> .
+<http://dbpedia.org/resource/Walter_Cox_(footballer)> <http://purl.org/dc/elements/1.1/description> "English footballer " .
+<http://dbpedia.org/resource/Andreas_Menger> <http://xmlns.com/foaf/0.1/surname> "Menger " .
+<http://dbpedia.org/resource/Massimo_Bonanni> <http://dbpedia.org/ontology/birthYear> "1982-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Aca_Lukas> <http://dbpedia.org/ontology/occupation> <http://dbpedia.org/resource/Singing> .
+<http://dbpedia.org/resource/Akeem_Priestley> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Billy_Crook_(American_soccer)> <http://dbpedia.org/ontology/height> "1.8288"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Jimmy_Nielsen> <http://purl.org/dc/elements/1.1/description> "Danish footballer"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/resource/Steve_Wilson_(footballer)> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Kingston_upon_Hull> .
+<http://dbpedia.org/resource/Robbie_Slater> <http://dbpedia.org/ontology/alias> "Slater, Robert " .
+<http://dbpedia.org/resource/Keene_Township,_Michigan> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Ionia_County,_Michigan> .
+<http://dbpedia.org/resource/Ibrahim_Abdul_Razak> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Thomas_Kaminski> <http://xmlns.com/foaf/0.1/surname> "Kaminski " .
+<http://dbpedia.org/resource/Nat_Robinson> <http://dbpedia.org/ontology/birthDate> "1878-02-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Kadiri_Ikhana> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Belon'i_Tsiribihina> <http://www.w3.org/2000/01/rdf-schema#label> "Belon'i Tsiribihina " .
+<http://dbpedia.org/resource/Heinrich_Heine> <http://xmlns.com/foaf/0.1/givenName> "Heinrich " .
+<http://dbpedia.org/resource/Lee_Sinnott> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Lee_Sinnott__2> .
+<http://dbpedia.org/resource/Stijn_Wuytens> <http://dbpedia.org/ontology/height> "1.83"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Gary_Etherington> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Gary_Etherington__5> .
+<http://dbpedia.org/resource/Cecilie_Pedersen> <http://dbpedia.org/ontology/height> "1.73"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Janine_Chamot> <http://www.w3.org/2000/01/rdf-schema#label> "Janine Chamot " .
+<http://dbpedia.org/resource/Steven_Davis> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Vincent_Laban> <http://xmlns.com/foaf/0.1/givenName> "Vincent " .
+<http://dbpedia.org/resource/Michael_Manzini> <http://xmlns.com/foaf/0.1/surname> "Manzini " .
+<http://dbpedia.org/resource/Brian_Nielsen_(footballer)> <http://www.w3.org/2000/01/rdf-schema#label> "Brian Nielsen (footballer)"@en .
+<http://dbpedia.org/resource/Karim_Rekik> <http://dbpedia.org/ontology/Person/height> "186.0"^^<http://dbpedia.org/datatype/centimetre> .
+<http://dbpedia.org/resource/Howard_Forinton> <http://dbpedia.org/ontology/height> "1.8034"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Martin_Hardie> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Augusto_Magli> <http://www.w3.org/2000/01/rdf-schema#label> "Augusto Magli"@en .
+<http://dbpedia.org/resource/Tony_Douglas> <http://dbpedia.org/ontology/birthDate> "1952-08-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Gary_Powell_(footballer)> <http://dbpedia.org/ontology/birthDate> "1969-04-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Leigh_Richmond_Roose> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Sunderland_A.F.C.> .
+<http://dbpedia.org/resource/Richard_Johnson_(footballer)> <http://dbpedia.org/ontology/birthYear> "1974-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Mel_Tottoh> <http://xmlns.com/foaf/0.1/givenName> "Mel " .
+<http://dbpedia.org/resource/Augusto_Mainguyague> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Independiente_Rivadavia> .
+<http://dbpedia.org/resource/Yuriy_Vernydub> <http://dbpedia.org/ontology/birthDate> "1966-01-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/FC_Barcelona> <http://www.w3.org/2000/01/rdf-schema#label> "FC Barcelona " .
+<http://dbpedia.org/resource/Serhiy_Kovalets> <http://dbpedia.org/ontology/height> "1.78"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Karl_Duguid> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Jugurtha_Meftah> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Jeff_Tutuana> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Forward_(association_football)> .
+<http://dbpedia.org/resource/Mike_Banner> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Washington,_D.C.> .
+<http://dbpedia.org/resource/Friedhelm_Konietzka> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Borussia_Dortmund> .
+<http://dbpedia.org/resource/Jerry_Laterza> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Jesse_Marsch> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Princeton_University> .
+<http://dbpedia.org/resource/Mohamed_Talis> <http://www.w3.org/2000/01/rdf-schema#label> "Mohamed Talis " .
+<http://dbpedia.org/resource/Guus_Joppen> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Defender_(association_football)> .
+<http://dbpedia.org/resource/Fernando_Morena> <http://dbpedia.org/ontology/birthDate> "1952-02-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Yeung_Ka_Ching> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Andreas_Wihlborg> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Lyngby_Boldklub> .
+<http://dbpedia.org/resource/Simone_Dell'Agnello> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Simone_Dell'Agnello__6> .
+<http://dbpedia.org/resource/Octavian_Popescu> <http://www.w3.org/2000/01/rdf-schema#label> "Octavian Popescu " .
+<http://dbpedia.org/resource/Yuval_Spungin> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Yuval_Spungin__2> .
+<http://dbpedia.org/resource/Jos_van_Nieuwstadt> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Netherlands> .
+<http://dbpedia.org/resource/Wilson_Oruma> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Richard_Dutruel> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Goalkeeper_(association_football)> .
+<http://dbpedia.org/resource/Kelvin_Leerdam> <http://dbpedia.org/ontology/birthDate> "1990-06-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Povilas_Leimonas> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Marijampol%C4%97> .
+<http://dbpedia.org/resource/Sacha_Opinel> <http://purl.org/dc/elements/1.1/description> "Footballer " .
+<http://dbpedia.org/resource/Jack_Doran> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Emmanuel_Duah> <http://www.w3.org/2000/01/rdf-schema#label> "Emmanuel Duah " .
+<http://dbpedia.org/resource/Alexander_Ratiu> <http://dbpedia.org/ontology/religion> <http://dbpedia.org/resource/Romanian_Church_United_with_Rome,_Greek-Catholic> .
+<http://dbpedia.org/resource/Adriano_Pimenta> <http://dbpedia.org/ontology/birthDate> "1982-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Andrew_Weber> <http://xmlns.com/foaf/0.1/givenName> "Andrew " .
+<http://dbpedia.org/resource/Roy_Beerens> <http://dbpedia.org/ontology/birthDate> "1987-12-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Harold_Balk> <http://dbpedia.org/ontology/deathYear> "1970-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Tommy_Booth> <http://purl.org/dc/elements/1.1/description> "Professional footballer " .
+<http://dbpedia.org/resource/Osee_Diboma> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Association_football_positions> .
+<http://dbpedia.org/resource/Roman_Kienast> <http://www.w3.org/2000/01/rdf-schema#label> "Roman Kienast " .
+<http://dbpedia.org/resource/Aleksey_Shchigolev> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Aleksey_Shchigolev__5> .
+<http://dbpedia.org/resource/Max_Dougan> <http://www.w3.org/2000/01/rdf-schema#label> "Max Dougan " .
+<http://dbpedia.org/resource/Piotr_Celeban> <http://xmlns.com/foaf/0.1/givenName> "Piotr " .
+<http://dbpedia.org/resource/Surat_Sukha> <http://xmlns.com/foaf/0.1/givenName> "Surat " .
+<http://dbpedia.org/resource/Sergei_Terehhov> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Sergei_Terehhov__10> .
+<http://dbpedia.org/resource/Thomas_Pinault> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Thomas_Pinault__7> .
+<http://dbpedia.org/resource/Brian_Kallman> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Defender_(association_football)> .
+<http://dbpedia.org/resource/Henry_Quinteros> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Midfielder> .
+<http://dbpedia.org/resource/Giacomo_Bonaventura> <http://dbpedia.org/ontology/position> <http://dbpedia.org/resource/Midfielder> .
+<http://dbpedia.org/resource/Richard_Perdomo> <http://www.w3.org/2000/01/rdf-schema#label> "Richard Perdomo " .
+<http://dbpedia.org/resource/Luke_Quinlivan> <http://xmlns.com/foaf/0.1/surname> "Quinlivan " .
+<http://dbpedia.org/resource/Filippos_Darlas> <http://xmlns.com/foaf/0.1/givenName> "Filippos " .
+<http://dbpedia.org/resource/Ricardo_Mendiguren> <http://www.w3.org/2000/01/rdf-schema#label> "Ricardo Mendiguren " .
+<http://dbpedia.org/resource/Herbert_Whitfeld> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Colin_Randell> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Swansea_City_A.F.C.> .
+<http://dbpedia.org/resource/Sidney_Pullen> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Arnold_Dwarika> <http://xmlns.com/foaf/0.1/surname> "Dwarika " .
+<http://dbpedia.org/resource/Binet-Valmer> <http://purl.org/dc/elements/1.1/description> "French writer " .
+<http://dbpedia.org/resource/Santi_Kolk> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/The_Hague> .
+<http://dbpedia.org/resource/Kostyantyn_Balabanov> <http://xmlns.com/foaf/0.1/givenName> "Kostyantyn " .
+<http://dbpedia.org/resource/Stuart_Munro> <http://xmlns.com/foaf/0.1/gender> "male " .
+<http://dbpedia.org/resource/Bill_Brelsford> <http://dbpedia.org/ontology/deathYear> "1954-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Sipho_Sibiya> <http://purl.org/dc/elements/1.1/description> "Canadian soccer player " .
+<http://dbpedia.org/resource/Marcel_Seip> <http://dbpedia.org/ontology/birthYear> "1982-01-01"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/David_Freeman_(footballer,_born_1979)> <http://purl.org/dc/elements/1.1/description> "Footballer " .

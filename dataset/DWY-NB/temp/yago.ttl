@@ -1,0 +1,500 @@
+<http://yago-knowledge.org/resource/Woodton> <http://dbpedia.org/ontology/populationTotal> "472"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://yago-knowledge.org/resource/Alessandro_Carrozza> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Alessandro Carrozza"@eng .
+<http://yago-knowledge.org/resource/Mandla_Masango> <http://xmlns.com/foaf/0.1/givenName> "Mandla"@eng .
+<http://yago-knowledge.org/resource/Israel_Castro_Franco> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Curitiba> .
+<http://yago-knowledge.org/resource/Armando_Robles> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "2201"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Markus_Ringberg> <http://dbpedia.org/ontology/birthDate> "1976-05-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Roger_Espinoza> <http://xmlns.com/foaf/0.1/surname> "Espinoza"@eng .
+<http://yago-knowledge.org/resource/Guisborough> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.535"^^<http://yago-knowledge.org/resource/degrees> .
+<http://yago-knowledge.org/resource/Olim_Navkarov> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "2367"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Youssef_Rossi> <http://xmlns.com/foaf/0.1/surname> "Rossi"@eng .
+<http://yago-knowledge.org/resource/Mustafa_Merry> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mustafa Merry"@eng .
+<http://yago-knowledge.org/resource/Filippo_Carobbio> <http://dbpedia.org/ontology/birthDate> "1979-10-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Carlos_Volante> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Stade_Rennais_F.C.> .
+<http://yago-knowledge.org/resource/Morten_Wieghorst> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Younes_Ali> <http://xmlns.com/foaf/0.1/givenName> "Younes"@eng .
+<http://yago-knowledge.org/resource/Dan_Anton_Johansen> <http://xmlns.com/foaf/0.1/surname> "Johansen"@eng .
+<http://yago-knowledge.org/resource/Paolo_Montero> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Atalanta_B.C.> .
+<http://yago-knowledge.org/resource/Bernie_Lewis> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Bernie Lewis"@eng .
+<http://yago-knowledge.org/resource/Laura_Koffman> <http://xmlns.com/foaf/0.1/givenName> "Laura"@eng .
+<http://yago-knowledge.org/resource/Mabhuti_Khenyeza> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Ajax_Cape_Town_F.C.> .
+<http://yago-knowledge.org/resource/Boleigh> <http://www.w3.org/2000/01/rdf-schema#label> "Boleigh" .
+<http://yago-knowledge.org/resource/Jan_Frederiksen> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Tokushima,_Tokushima> <http://www.w3.org/2000/01/rdf-schema#label> "River city"@eng .
+<http://yago-knowledge.org/resource/Muwahid_Sesay> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Muwahid_Sesay> .
+<http://yago-knowledge.org/resource/Mark_McLennan> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Mark_McLennan> .
+<http://yago-knowledge.org/resource/Alex_Stevenson> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Alex Stevenson"@eng .
+<http://yago-knowledge.org/resource/Gideon_Omokirio> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Gideon Omokirio"@eng .
+<http://yago-knowledge.org/resource/Dmitri_Kayumov> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Takalani_Ndlovu> <http://xmlns.com/foaf/0.1/givenName> "Takalani"@eng .
+<http://yago-knowledge.org/resource/Edmond_Dosti> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "3860"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Oxford_United_F.C.> <http://www.w3.org/2000/01/rdf-schema#label> "OUFC"@eng .
+<http://yago-knowledge.org/resource/William_Guerra> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Mindaugas_Kalonas> <http://yago-knowledge.org/resource/isAffiliatedTo> <http://yago-knowledge.org/resource/FC_Rubin_Kazan> .
+<http://yago-knowledge.org/resource/Latisana> <http://www.w3.org/2000/01/rdf-schema#label> "Latisana"@eng .
+<http://yago-knowledge.org/resource/Nicola_Belmonte> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "4376"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Sebastopol,_Mississippi> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "32.56666666666667"^^<http://yago-knowledge.org/resource/degrees> .
+<http://yago-knowledge.org/resource/Dollah_Salleh> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Dollah_Salleh> .
+<http://yago-knowledge.org/resource/Raffaele_Imparato> <http://dbpedia.org/ontology/birthDate> "1986-09-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Andrejs_Prohorenkovs> <http://xmlns.com/foaf/0.1/surname> "Prohorenkovs"@eng .
+<http://yago-knowledge.org/resource/Alex_Schalk> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Breda> .
+<http://yago-knowledge.org/resource/Mitchell_Thomas> <http://xmlns.com/foaf/0.1/surname> "Thomas"@eng .
+<http://yago-knowledge.org/resource/West_Bengal> <http://www.w3.org/2000/01/rdf-schema#label> "Bengal (disambiguation)"@eng .
+<http://yago-knowledge.org/resource/Jake_Findlay> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Dean_Whitehead> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "16762"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Alex_Guerci> <http://xmlns.com/foaf/0.1/surname> "Guerci"@eng .
+<http://yago-knowledge.org/resource/Balwant_Singh> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "1577"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Ivan_Turina> <http://www.w3.org/2000/01/rdf-schema#label> "Ivan Turina" .
+<http://yago-knowledge.org/resource/Bjarte_Haugsdal> <http://xmlns.com/foaf/0.1/surname> "Haugsdal"@eng .
+<http://yago-knowledge.org/resource/Derek_Whiteford> <http://www.w3.org/2000/01/rdf-schema#label> "Derek Whiteford" .
+<http://yago-knowledge.org/resource/Daniele_Daino> <http://xmlns.com/foaf/0.1/surname> "Daino"@eng .
+<http://yago-knowledge.org/resource/Paul_Kozlicek> <http://xmlns.com/foaf/0.1/givenName> "Paul"@eng .
+<http://yago-knowledge.org/resource/Peter_Enckelman> <http://xmlns.com/foaf/0.1/givenName> "Peter"@eng .
+<http://yago-knowledge.org/resource/Felice_Evacuo> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "5285"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Francesco_Lunardini> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/A.C._Pavia> .
+<http://yago-knowledge.org/resource/Erick_Scott> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Erick Scott"@eng .
+<http://yago-knowledge.org/resource/Jean-Paul_Abalo> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "3510"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Luiz_Gustavo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Luiz Gustavo"@eng .
+<http://yago-knowledge.org/resource/Luis_Rueda> <http://dbpedia.org/ontology/birthDate> "1972-01-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Kwami_Kacla_Eninful> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Kwami Kacla Eninful"@eng .
+<http://yago-knowledge.org/resource/Jordan_Stone> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/FC_Dallas> .
+<http://yago-knowledge.org/resource/David_Louhoungou> <http://www.w3.org/2004/02/skos/core#prefLabel> "David Louhoungou"@eng .
+<http://yago-knowledge.org/resource/Ahmad_Hayel> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Jordan_national_football_team> .
+<http://yago-knowledge.org/resource/Leandro_Montera_da_Silva> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Yu_Hoshide> <http://xmlns.com/foaf/0.1/givenName> "Yu"@eng .
+<http://yago-knowledge.org/resource/Misty_Rain> <http://xmlns.com/foaf/0.1/givenName> "Misty"@eng .
+<http://yago-knowledge.org/resource/Francisco_Bizcocho> <http://xmlns.com/foaf/0.1/surname> "Bizcocho"@eng .
+<http://yago-knowledge.org/resource/Ian_Stenlake> <http://dbpedia.org/ontology/birthYear> "1969-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/James_Higgins_(footballer)> <http://www.w3.org/2004/02/skos/core#prefLabel> "James Higgins (footballer)"@eng .
+<http://yago-knowledge.org/resource/Quinton_Young> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Ayr_United_F.C.> .
+<http://yago-knowledge.org/resource/Peter_Knowles> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Peter Knowles"@eng .
+<http://yago-knowledge.org/resource/Richard_Dutruel> <http://xmlns.com/foaf/0.1/surname> "Dutruel"@eng .
+<http://yago-knowledge.org/resource/Peter_Dawo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Peter Dawo"@eng .
+<http://yago-knowledge.org/resource/Alan_Cawley> <http://xmlns.com/foaf/0.1/surname> "Cawley"@eng .
+<http://yago-knowledge.org/resource/Stephen_Thomas_(footballer)> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "1961"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Harry_Lubse> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/K._Beerschot_V.A.C.> .
+<http://yago-knowledge.org/resource/Andrew_Smart> <http://xmlns.com/foaf/0.1/surname> "Smart"@eng .
+<http://yago-knowledge.org/resource/Janusz_Surdykowski> <http://www.w3.org/2004/02/skos/core#prefLabel> "Janusz Surdykowski"@eng .
+<http://yago-knowledge.org/resource/Daniele_Messina> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Daniele_Messina> .
+<http://yago-knowledge.org/resource/Jalal_Rafkhaei> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Bandar-e_Anzali> .
+<http://yago-knowledge.org/resource/Luis_Alonso_Sandoval> <http://dbpedia.org/ontology/birthDate> "1980-05-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Lefteris_Gialousis> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Heraklion> .
+<http://yago-knowledge.org/resource/Rolando_Bianchi> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rolando Bianchi"@eng .
+<http://yago-knowledge.org/resource/Maxime_Colin> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Billy_Paynter> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Billy Paynter"@eng .
+<http://yago-knowledge.org/resource/Ballamodou_Conde> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "4180"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Alfredo_Torres> <http://xmlns.com/foaf/0.1/givenName> "Alfredo"@eng .
+<http://yago-knowledge.org/resource/Peter_Withe> <http://xmlns.com/foaf/0.1/surname> "Withe"@eng .
+<http://yago-knowledge.org/resource/Teaticket,_Massachusetts> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-70.58694444444444"^^<http://yago-knowledge.org/resource/degrees> .
+<http://yago-knowledge.org/resource/Adil_Serraj> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "2987"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Keith_Dunne> <http://xmlns.com/foaf/0.1/surname> "Dunne"@eng .
+<http://yago-knowledge.org/resource/Shkodran_Maholli> <http://dbpedia.org/ontology/birthDate> "1993-04-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Charles_Campbell_(footballer)> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "3428"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Christos_Doukas> <http://www.w3.org/2000/01/rdf-schema#label> "Christos Doukas" .
+<http://yago-knowledge.org/resource/Des_Horne> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Des Horne"@eng .
+<http://yago-knowledge.org/resource/Mario_Yepes> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "9998"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Alexandros_Konstantidis> <http://www.w3.org/2000/01/rdf-schema#label> "Alexandros Konstantidis" .
+<http://yago-knowledge.org/resource/Ted_Hantak> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Ted_Hantak> .
+<http://yago-knowledge.org/resource/Sergio_Pellissier> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Paulo_Futre> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Zhang_Lie> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Shenyang> .
+<http://yago-knowledge.org/resource/Campos,_Majorca> <http://dbpedia.org/ontology/isPartOf> <http://yago-knowledge.org/resource/Balearic_Islands> .
+<http://yago-knowledge.org/resource/Alain_Mendy> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Alain_Mendy> .
+<http://yago-knowledge.org/resource/Leighton_McGivern> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "9853"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Hu_Rentian> <http://dbpedia.org/ontology/birthDate> "1991-01-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Fred_Pickering> <http://xmlns.com/foaf/0.1/surname> "Pickering"@eng .
+<http://yago-knowledge.org/resource/Aaron_Pitchkolan> <http://www.w3.org/2000/01/rdf-schema#label> "Aaron Pitchkolan" .
+<http://yago-knowledge.org/resource/Danestone> <http://www.w3.org/2004/02/skos/core#prefLabel> "Danestone"@eng .
+<http://yago-knowledge.org/resource/Evan_Brown> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "4735"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Mark_Stein_(footballer)> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Samastipur> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Samastipur"@eng .
+<http://yago-knowledge.org/resource/AD_Las_Palas> <http://www.w3.org/2000/01/rdf-schema#label> "AD Las Palas"@eng .
+<http://yago-knowledge.org/resource/Harry_Wilding> <http://dbpedia.org/ontology/deathYear> "1958-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/David_Mendes_da_Silva> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "David Mendes da Silva"@eng .
+<http://yago-knowledge.org/resource/Majed_Al_Haj> <http://www.w3.org/2004/02/skos/core#prefLabel> "Majed Al Haj"@eng .
+<http://yago-knowledge.org/resource/Andy_Garner> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Andy_Garner> .
+<http://yago-knowledge.org/resource/Castello_di_Serravalle> <http://www.w3.org/2000/01/rdf-schema#label> "Comune di Castello di Serravalle" .
+<http://yago-knowledge.org/resource/Alamada,_Cotabato> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "124.56666666666666"^^<http://yago-knowledge.org/resource/degrees> .
+<http://yago-knowledge.org/resource/Phil_Boersma> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Swansea_City_A.F.C.> .
+<http://yago-knowledge.org/resource/Eleri_Earnshaw> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Eleri_Earnshaw> .
+<http://yago-knowledge.org/resource/Alexandre_Frutos> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "2666"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Kevin_Blackwell> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "18383"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Daniel_Bragg> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Sydney> .
+<http://yago-knowledge.org/resource/Mario_Cuenca> <http://dbpedia.org/ontology/birthDate> "1975-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Mike_Milligan_(footballer)> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "10968"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Otto_von_Habsburg> <http://dbpedia.org/ontology/birthDate> "1912-11-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Wade_Whitney> <http://www.w3.org/2000/01/rdf-schema#label> "Wade Jason Whitney" .
+<http://yago-knowledge.org/resource/Manny_Neves> <http://xmlns.com/foaf/0.1/surname> "Neves"@eng .
+<http://yago-knowledge.org/resource/Sugar_Ramos> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sugar Ramos"@eng .
+<http://yago-knowledge.org/resource/Alberto_Garza> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "2564"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Vincenzo_Pepe> <http://yago-knowledge.org/resource/isAffiliatedTo> <http://yago-knowledge.org/resource/F.B.C._Unione_Venezia> .
+<http://yago-knowledge.org/resource/Jeff_Dunham> <http://yago-knowledge.org/resource/actedIn> <http://yago-knowledge.org/resource/Dinner_for_Schmucks> .
+<http://yago-knowledge.org/resource/Ilion_Lika> <http://www.w3.org/2000/01/rdf-schema#label> "Iljaz Lika" .
+<http://yago-knowledge.org/resource/Iraj_Danaeifard> <http://xmlns.com/foaf/0.1/givenName> "Iraj"@eng .
+<http://yago-knowledge.org/resource/Meherpur_Sadar_Upazila> <http://dbpedia.org/ontology/populationTotal> "262779"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://yago-knowledge.org/resource/Gary_King_(footballer)> <http://www.w3.org/2000/01/rdf-schema#label> "Gary Ian King" .
+<http://yago-knowledge.org/resource/Tanji> <http://dbpedia.org/ontology/country> <http://yago-knowledge.org/resource/The_Gambia> .
+<http://yago-knowledge.org/resource/Arnab_Mondal> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Arnab_Mondal> .
+<http://yago-knowledge.org/resource/Harold_Sly> <http://xmlns.com/foaf/0.1/surname> "Sly"@eng .
+<http://yago-knowledge.org/resource/Tsvetomir_Tsonkov> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Tsvetomir Tsonkov"@eng .
+<http://yago-knowledge.org/resource/Cliff_Brown_(soccer)> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Cliff_Brown_(soccer)> .
+<http://yago-knowledge.org/resource/Akeem_Adams> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Akeem Adams"@eng .
+<http://yago-knowledge.org/resource/Lauren_Wells> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Lauren_Wells> .
+<http://yago-knowledge.org/resource/Fred_Perry> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fred Perry"@eng .
+<http://yago-knowledge.org/resource/Cristiana_Girelli> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "1876"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Logan_Township,_Knox_County,_Nebraska> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-98.13388888888889"^^<http://yago-knowledge.org/resource/degrees> .
+<http://yago-knowledge.org/resource/CA_Bizertin> <http://www.w3.org/2000/01/rdf-schema#label> "CA Bizerte"@eng .
+<http://yago-knowledge.org/resource/Lieke_Martens> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lieke Martens"@eng .
+<http://yago-knowledge.org/resource/Hoddesdon> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "0.015"^^<http://yago-knowledge.org/resource/degrees> .
+<http://yago-knowledge.org/resource/Mark_Buckland> <http://dbpedia.org/ontology/birthDate> "1961-08-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Leonel_Saint-Preux> <http://xmlns.com/foaf/0.1/surname> "Saint-Preux"@eng .
+<http://yago-knowledge.org/resource/Acquaviva_Platani> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "13.7"^^<http://yago-knowledge.org/resource/degrees> .
+<http://yago-knowledge.org/resource/Jeff_Cambridge> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "2075"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Dennis_Woodhead> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Dennis Woodhead"@eng .
+<http://yago-knowledge.org/resource/Heeley> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "53.36"^^<http://yago-knowledge.org/resource/degrees> .
+<http://yago-knowledge.org/resource/Kuujjuaq> <http://yago-knowledge.org/resource/hasGeonamesEntityId> "5994517"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Herbert_Butterworth> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "5545"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Jozef_Karel> <http://dbpedia.org/ontology/deathDate> "2005-09-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Garth_Pollonais> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "6657"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Marlon_LeBlanc> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "2503"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Michael_Ofosu-Appiah> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Medeama_SC> .
+<http://yago-knowledge.org/resource/Harry_Ware> <http://dbpedia.org/ontology/deathDate> "1970-10-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Michael_Tanke> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Michael Tanke"@eng .
+<http://yago-knowledge.org/resource/Sari_Abacha> <http://dbpedia.org/ontology/birthDate> "1978-10-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Carlos_Luis_Torres> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Newell's_Old_Boys> .
+<http://yago-knowledge.org/resource/Luke_O'Brien> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "13373"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/George_McCartney> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "20628"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Manuel_Heredia> <http://dbpedia.org/ontology/birthDate> "1986-01-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Pablo_Larios> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Pablo_Larios> .
+<http://yago-knowledge.org/resource/Lu_Feng> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "3020"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Harry_Nutter> <http://xmlns.com/foaf/0.1/givenName> "Harry"@eng .
+<http://yago-knowledge.org/resource/Albert_Stitfall> <http://dbpedia.org/ontology/deathDate> "1998-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Dwayne_Whylly> <http://xmlns.com/foaf/0.1/surname> "Whylly"@eng .
+<http://yago-knowledge.org/resource/Franco_Da_Dalt> <http://xmlns.com/foaf/0.1/givenName> "Franco"@eng .
+<http://yago-knowledge.org/resource/Stefan_Frei> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Stefan_Frei> .
+<http://yago-knowledge.org/resource/Charles_Partridge> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Charles_Partridge> .
+<http://yago-knowledge.org/resource/Makoto_Hasebe> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "11698"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Joo_Won> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Seoul> .
+<http://yago-knowledge.org/resource/David_Mendieta> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Gondomar_S.C.> .
+<http://yago-knowledge.org/resource/Heinz_Kubsch> <http://dbpedia.org/ontology/deathDate> "1993-10-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Bobby_Geddes> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Bobby Geddes"@eng .
+<http://yago-knowledge.org/resource/Roy_Gregory> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/All_Saints_United_F.C.> .
+<http://yago-knowledge.org/resource/Abhra_Mondal> <http://dbpedia.org/ontology/birthDate> "1986-10-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Colin_Jones_(footballer)> <http://dbpedia.org/ontology/birthDate> "1940-09-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/David_D'Apuzzo> <http://www.w3.org/2004/02/skos/core#prefLabel> "David D'Apuzzo"@eng .
+<http://yago-knowledge.org/resource/Zhang_Xiaorui> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Zhang Xiaorui"@eng .
+<http://yago-knowledge.org/resource/Eugenio_Peralta> <http://xmlns.com/foaf/0.1/surname> "Peralta"@eng .
+<http://yago-knowledge.org/resource/Hugo_Curioni> <http://dbpedia.org/ontology/birthDate> "1946-10-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Manuel_Coppola> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Manuel Coppola"@eng .
+<http://yago-knowledge.org/resource/Eugena_Washington> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Eugena_Washington> .
+<http://yago-knowledge.org/resource/Kali_Meehan> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kali Meehan"@eng .
+<http://yago-knowledge.org/resource/Philippe_Montanier> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Kim_Hyun-Seok> <http://xmlns.com/foaf/0.1/givenName> "Hyun-Seok"@eng .
+<http://yago-knowledge.org/resource/Domenico_Falco> <http://xmlns.com/foaf/0.1/surname> "Falco"@eng .
+<http://yago-knowledge.org/resource/Kevin_Rueda> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Kevin_Miller_(footballer)> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Kevin_Miller_(footballer)> .
+<http://yago-knowledge.org/resource/Zaine_Pierre> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Zaine_Pierre> .
+<http://yago-knowledge.org/resource/Jos_Heyligen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jos Heyligen"@eng .
+<http://yago-knowledge.org/resource/Kevin_Kalish> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Kevin Kalish"@eng .
+<http://yago-knowledge.org/resource/Peter_Dowds> <http://xmlns.com/foaf/0.1/surname> "Dowds"@eng .
+<http://yago-knowledge.org/resource/Brian_Horton> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Brian_Horton> .
+<http://yago-knowledge.org/resource/Michele_Serena> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Venice> .
+<http://yago-knowledge.org/resource/Sam_Chedgzoy> <http://xmlns.com/foaf/0.1/givenName> "Sam"@eng .
+<http://yago-knowledge.org/resource/Siri_Worm> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "1990"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Chris_Arreola> <http://xmlns.com/foaf/0.1/givenName> "Chris"@eng .
+<http://yago-knowledge.org/resource/Liu_Chao_(footballer)> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Miguel_Alfonso_Herrero> <http://yago-knowledge.org/resource/isAffiliatedTo> <http://yago-knowledge.org/resource/Valencia_CF> .
+<http://yago-knowledge.org/resource/Franklin_Cale> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Ajax_Cape_Town_F.C.> .
+<http://yago-knowledge.org/resource/Michael_Ghebru> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Kickers_Offenbach> .
+<http://yago-knowledge.org/resource/Osama_Malik> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Osama_Malik> .
+<http://yago-knowledge.org/resource/Nick_Hammond> <http://www.w3.org/2000/01/rdf-schema#label> "Nicholas David Hammond" .
+<http://yago-knowledge.org/resource/David_Peach> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "David Peach"@eng .
+<http://yago-knowledge.org/resource/Hugo_Almeida> <http://yago-knowledge.org/resource/isAffiliatedTo> <http://yago-knowledge.org/resource/U.D._Leiria> .
+<http://yago-knowledge.org/resource/Ole_Johan_Singsdal> <http://www.w3.org/2000/01/rdf-schema#label> "Ole Johan Singsdal" .
+<http://yago-knowledge.org/resource/Alfredo_Omar_Tena> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Alfredo Omar Tena"@eng .
+<http://yago-knowledge.org/resource/Trond_Andersen> <http://dbpedia.org/ontology/birthDate> "1975-01-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Abbe_Ibrahim> <http://www.w3.org/2000/01/rdf-schema#label> "Abdoulaye Ibrahim" .
+<http://yago-knowledge.org/resource/Derek_Fazackerley> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Derek Fazackerley"@eng .
+<http://yago-knowledge.org/resource/Art_Aragon> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "4261"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Alexandru_Forminte> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Alexandru_Forminte> .
+<http://yago-knowledge.org/resource/Billy_Crone> <http://dbpedia.org/ontology/birthYear> "1864-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Samir_Ujkani> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Mohammad_Hossein_Ziaei> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "3696"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Joe_Franchino> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Fontana,_California> .
+<http://yago-knowledge.org/resource/Henri_Saivet> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/FC_Girondins_de_Bordeaux> .
+<http://yago-knowledge.org/resource/Vittorio_Pozzo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vittorio Pozzo"@eng .
+<http://yago-knowledge.org/resource/Maria_Cristina_of_Savoy> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "5963"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Jayson_Leutwiler> <http://xmlns.com/foaf/0.1/surname> "Leutwiler"@eng .
+<http://yago-knowledge.org/resource/Aparecido_Lima> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aparecido Lima"@eng .
+<http://yago-knowledge.org/resource/Darren_Ambrose> <http://xmlns.com/foaf/0.1/givenName> "Darren"@eng .
+<http://yago-knowledge.org/resource/Renato_Neto> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Renato_Neto> .
+<http://yago-knowledge.org/resource/Mike_Havenaar> <http://www.w3.org/2000/01/rdf-schema#label> "Mike Havenaar" .
+<http://yago-knowledge.org/resource/Fodil_Hadjadj> <http://www.w3.org/2000/01/rdf-schema#label> "Fodil Hadjadj" .
+<http://yago-knowledge.org/resource/Ronny_Martens> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Ronny_Martens> .
+<http://yago-knowledge.org/resource/Matt_Jarvis> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Middlesbrough> .
+<http://yago-knowledge.org/resource/Mustapha_Hadji> <http://dbpedia.org/ontology/height> "1.8034"^^<http://yago-knowledge.org/resource/m> .
+<http://yago-knowledge.org/resource/Nat_Robinson> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Coventry> .
+<http://yago-knowledge.org/resource/Christian_Nielsen_(footballer)> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Christian Nielsen (footballer)"@eng .
+<http://yago-knowledge.org/resource/Hussein_Abdul-Wahed> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Jerren_Nixon> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Dundee_United_F.C.> .
+<http://yago-knowledge.org/resource/Aslan_Kerimov> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Aslan_Kerimov> .
+<http://yago-knowledge.org/resource/Pierrick_Rakotoharisoa> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Le_Havre_AC> .
+<http://yago-knowledge.org/resource/Mella,_Independencia> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "18.333333333333332"^^<http://yago-knowledge.org/resource/degrees> .
+<http://yago-knowledge.org/resource/Armando_Robles> <http://xmlns.com/foaf/0.1/givenName> "Armando"@eng .
+<http://yago-knowledge.org/resource/Teeboy_Kamara> <http://dbpedia.org/ontology/birthDate> "1996-05-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Hrastje_pri_Cerkljah> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Hrastje_pri_Cerkljah> .
+<http://yago-knowledge.org/resource/Cedric_van_der_Gun> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/FC_Den_Bosch> .
+<http://yago-knowledge.org/resource/Colin_Waldron> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Bristol> .
+<http://yago-knowledge.org/resource/Alan_Davidson_(Scottish_footballer)> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Agu_Casmir> <http://dbpedia.org/ontology/birthDate> "1984-03-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Augusta,_Kentucky> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.766666666666666"^^<http://yago-knowledge.org/resource/degrees> .
+<http://yago-knowledge.org/resource/Matthias_Sammer> <http://dbpedia.org/ontology/birthDate> "1967-09-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Kenji_Arai> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "4948"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Gregoor_van_Dijk> <http://dbpedia.org/ontology/birthDate> "1981-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Oscar_Meza> <http://dbpedia.org/ontology/birthDate> "1986-12-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Philip_Haglund> <http://dbpedia.org/ontology/birthDate> "1987-03-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Fwayo_Tembo> <http://www.w3.org/2000/01/rdf-schema#label> "Fwayo Tembo" .
+<http://yago-knowledge.org/resource/Norman_Wharton> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "4222"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Allan_Nielsen> <http://dbpedia.org/ontology/birthDate> "1971-03-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/DaMarcus_Beasley> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "26779"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Armin_Kraaz> <http://dbpedia.org/ontology/birthDate> "1965-02-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Attilio_Nicodemo> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/S.S._Juve_Stabia> .
+<http://yago-knowledge.org/resource/Nathan_Jarman> <http://dbpedia.org/ontology/height> "1.8034"^^<http://yago-knowledge.org/resource/m> .
+<http://yago-knowledge.org/resource/Kerry_Davis> <http://xmlns.com/foaf/0.1/surname> "Davis"@eng .
+<http://yago-knowledge.org/resource/Kinson> <http://www.w3.org/2000/01/rdf-schema#label> "Kinson" .
+<http://yago-knowledge.org/resource/Neyestaneh> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "1873"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Justo_Ruiz> <http://www.w3.org/2004/02/skos/core#prefLabel> "Justo Ruiz"@eng .
+<http://yago-knowledge.org/resource/Hui_Jiakang> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Shenyang> .
+<http://yago-knowledge.org/resource/Colin_Russell_(footballer)> <http://www.w3.org/2000/01/rdf-schema#label> "Colin Russell" .
+<http://yago-knowledge.org/resource/Peter_Stringfellow_(footballer)> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Peter Stringfellow (footballer)"@eng .
+<http://yago-knowledge.org/resource/Anderson_Costa> <http://www.w3.org/2000/01/rdf-schema#label> "Anderson Costa" .
+<http://yago-knowledge.org/resource/Roman_Gergel> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "2800"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/George_McCartney> <http://xmlns.com/foaf/0.1/givenName> "George"@eng .
+<http://yago-knowledge.org/resource/Yuri_Gavrilov> <http://xmlns.com/foaf/0.1/surname> "Gavrilov"@eng .
+<http://yago-knowledge.org/resource/Kawin_Thamsatchanan> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Kawin_Thamsatchanan> .
+<http://yago-knowledge.org/resource/Christian_Manfredini> <http://xmlns.com/foaf/0.1/surname> "Manfredini"@eng .
+<http://yago-knowledge.org/resource/Seamus_Donnelly_(footballer)> <http://dbpedia.org/ontology/birthDate> "1971-05-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Tyler_Polak> <http://dbpedia.org/ontology/height> "1.7272"^^<http://yago-knowledge.org/resource/m> .
+<http://yago-knowledge.org/resource/Vasil_Khamutowski> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/FC_BATE_Borisov> .
+<http://yago-knowledge.org/resource/Ritvars_Rugins> <http://xmlns.com/foaf/0.1/givenName> "Ritvars"@eng .
+<http://yago-knowledge.org/resource/David_Levene> <http://xmlns.com/foaf/0.1/givenName> "David"@eng .
+<http://yago-knowledge.org/resource/Adam_Newton> <http://xmlns.com/foaf/0.1/surname> "Newton"@eng .
+<http://yago-knowledge.org/resource/Chris_Wingert> <http://dbpedia.org/ontology/birthDate> "1982-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Bob_Schepers> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "8427"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Claire_Scanlan> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Claire_Scanlan> .
+<http://yago-knowledge.org/resource/Carlos_Tordoya> <http://www.w3.org/2000/01/rdf-schema#label> "Carlos Hugo Tordoya Pizarro" .
+<http://yago-knowledge.org/resource/Radanfah_Abu_Bakr> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Billy_O'Rourke> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Nottingham> .
+<http://yago-knowledge.org/resource/Karim_Benzema> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Karim Benzema"@eng .
+<http://yago-knowledge.org/resource/Morro_Reatino> <http://www.w3.org/2000/01/rdf-schema#label> "Comune di Morro Reatino" .
+<http://yago-knowledge.org/resource/Plamen_Dimitrov> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "1598"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Maxime_Gonalons> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/FC_Villefranche> .
+<http://yago-knowledge.org/resource/Sergio_Castelletti> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "4680"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Keith_Ryan> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "5375"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Dean_Sewell> <http://xmlns.com/foaf/0.1/surname> "Sewell"@eng .
+<http://yago-knowledge.org/resource/Marinho_Peres> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Brazil_national_football_team> .
+<http://yago-knowledge.org/resource/Michael_Travis_(footballer)> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Michael Travis (footballer)"@eng .
+<http://yago-knowledge.org/resource/Jason_Pelletier> <http://xmlns.com/foaf/0.1/surname> "Pelletier"@eng .
+<http://yago-knowledge.org/resource/Graham_Rathbone> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Merthyr_Tydfil_F.C.> .
+<http://yago-knowledge.org/resource/Abderrazzak_Jadid> <http://yago-knowledge.org/resource/isAffiliatedTo> <http://yago-knowledge.org/resource/A.S._Bari> .
+<http://yago-knowledge.org/resource/Kinawley> <http://www.w3.org/2000/01/rdf-schema#label> "Kinawley" .
+<http://yago-knowledge.org/resource/Simone_Farelli> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/F.C._Vittoria> .
+<http://yago-knowledge.org/resource/Darren_Ryan> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Darren Ryan"@eng .
+<http://yago-knowledge.org/resource/Bert_Ormond> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Yongki_Aribowo> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Yongki_Aribowo> .
+<http://yago-knowledge.org/resource/Li_Weifeng> <http://xmlns.com/foaf/0.1/givenName> "Weifeng"@eng .
+<http://yago-knowledge.org/resource/Timothy_Cathalina> <http://yago-knowledge.org/resource/isAffiliatedTo> <http://yago-knowledge.org/resource/Tranmere_Rovers_F.C.> .
+<http://yago-knowledge.org/resource/Antti_Sumiala> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Jhonny_Cubero> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "3041"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Tommy_Bowman> <http://dbpedia.org/ontology/deathDate> "1958-08-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Subodh_Kumar> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Jean-Marc_Guillou> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Jean-Marc_Guillou> .
+<http://yago-knowledge.org/resource/Nettuno> <http://www.w3.org/2000/01/rdf-schema#label> "Comune di Nettuno" .
+<http://yago-knowledge.org/resource/Jean_Fernandez> <http://dbpedia.org/ontology/birthDate> "1954-10-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Andy_Scott_(Scottish_footballer)> <http://www.w3.org/2000/01/rdf-schema#label> "Andrew Scott" .
+<http://yago-knowledge.org/resource/Irina_Rodnina> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Irina_Rodnina> .
+<http://yago-knowledge.org/resource/Plouharnel> <http://dbpedia.org/ontology/populationTotal> "1700"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://yago-knowledge.org/resource/Joe_Papaleo> <http://dbpedia.org/ontology/height> "1.8034"^^<http://yago-knowledge.org/resource/m> .
+<http://yago-knowledge.org/resource/Marcus_Haber> <http://yago-knowledge.org/resource/isAffiliatedTo> <http://yago-knowledge.org/resource/Canada_men's_national_youth_soccer_teams> .
+<http://yago-knowledge.org/resource/Payan_Rafat> <http://yago-knowledge.org/resource/isAffiliatedTo> <http://yago-knowledge.org/resource/Homa_F.C.> .
+<http://yago-knowledge.org/resource/Jack_Day> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "4491"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Davis_Township,_Fountain_County,_Indiana> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Davis_Township,_Fountain_County,_Indiana> .
+<http://yago-knowledge.org/resource/David_Kerr_(footballer)> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "2754"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Gavin_Griffin_(footballer)> <http://www.w3.org/2000/01/rdf-schema#label> "Gavin Griffin" .
+<http://yago-knowledge.org/resource/Jamie_Griffiths> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Ipswich_Town_F.C.> .
+<http://yago-knowledge.org/resource/Reha_Kapsal> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Zeytinburnuspor> .
+<http://yago-knowledge.org/resource/Hamadi_Ayari> <http://xmlns.com/foaf/0.1/givenName> "Hamadi"@eng .
+<http://yago-knowledge.org/resource/Bernardo_Corradi> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "20929"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Strahil_Popov> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Strahil_Popov> .
+<http://yago-knowledge.org/resource/Eric_Caldow> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Eric_Caldow> .
+<http://yago-knowledge.org/resource/Jon_Akin> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Simo_Valakari> <http://dbpedia.org/ontology/birthDate> "1973-04-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Mehdi_Rajabzadeh> <http://xmlns.com/foaf/0.1/givenName> "Mehdi"@eng .
+<http://yago-knowledge.org/resource/Kalmar_FF> <http://www.w3.org/2000/01/rdf-schema#label> "Kalmar FF"@eng .
+<http://yago-knowledge.org/resource/Terry_Bullivant> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "3507"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Vicente_Engonga> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Vicente Engonga"@eng .
+<http://yago-knowledge.org/resource/Aleandro_Rosi> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "5525"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Mavillo_Gheller> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "5260"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Ubusuku_Abukusumo> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Ubusuku_Abukusumo> .
+<http://yago-knowledge.org/resource/Demar_Stewart> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "4420"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Aleksandr_Ryazantsev> <http://xmlns.com/foaf/0.1/givenName> "Aleksandr"@eng .
+<http://yago-knowledge.org/resource/Old_Leake> <http://www.w3.org/2000/01/rdf-schema#label> "Old Leake" .
+<http://yago-knowledge.org/resource/FC_Spartak_Semey> <http://www.w3.org/2000/01/rdf-schema#label> "FC Semey"@eng .
+<http://yago-knowledge.org/resource/Florida_Atlantic_Owls> <http://www.w3.org/2000/01/rdf-schema#label> "FAU Owls"@eng .
+<http://yago-knowledge.org/resource/Lee_Feeney> <http://dbpedia.org/ontology/birthDate> "1978-03-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Richard_Hastings> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Millburn_Academy> .
+<http://yago-knowledge.org/resource/Barry_Butlin> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "3252"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Grove_Lake_Township,_Pope_County,_Minnesota> <http://dbpedia.org/ontology/isPartOf> <http://yago-knowledge.org/resource/Pope_County,_Minnesota> .
+<http://yago-knowledge.org/resource/Armenak_Petrosyan> <http://www.w3.org/2000/01/rdf-schema#label> "Armenak Petrosyan" .
+<http://yago-knowledge.org/resource/Danny_Kelly_(soccer)> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Penn_State_Nittany_Lions> .
+<http://yago-knowledge.org/resource/Ashley_Hemmings> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Ashley Hemmings"@eng .
+<http://yago-knowledge.org/resource/Ian_Fairbrother> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ian Fairbrother"@eng .
+<http://yago-knowledge.org/resource/Zablon_Amanaka> <http://xmlns.com/foaf/0.1/surname> "Amanaka"@eng .
+<http://yago-knowledge.org/resource/Paulo_Ribeiro> <http://xmlns.com/foaf/0.1/surname> "Ribeiro"@eng .
+<http://yago-knowledge.org/resource/Spencer,_Wisconsin> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-90.27027777777778"^^<http://yago-knowledge.org/resource/degrees> .
+<http://yago-knowledge.org/resource/Collins_Mbesuma> <http://yago-knowledge.org/resource/isAffiliatedTo> <http://yago-knowledge.org/resource/Mamelodi_Sundowns_F.C.> .
+<http://yago-knowledge.org/resource/Igor_Tudor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Igor Tudor"@eng .
+<http://yago-knowledge.org/resource/Ray_Graydon> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Bristol> .
+<http://yago-knowledge.org/resource/Mike_Palacio> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Mike Palacio"@eng .
+<http://yago-knowledge.org/resource/Lehlohonolo_Seema> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Lehlohonolo_Seema> .
+<http://yago-knowledge.org/resource/Muhammad_Qasim> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Pakistan_national_football_team> .
+<http://yago-knowledge.org/resource/Bob_Bolder> <http://xmlns.com/foaf/0.1/surname> "Bolder"@eng .
+<http://yago-knowledge.org/resource/Apinya_Sakuljaroensuk> <http://www.w3.org/2000/01/rdf-schema#label> "Apinya Sakuljaroensuk" .
+<http://yago-knowledge.org/resource/Mikele_Leigertwood> <http://www.w3.org/2000/01/rdf-schema#label> "Mikele Benjamin Leigertwood" .
+<http://yago-knowledge.org/resource/Richard_Chinapoo> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Alberto_Costa_(footballer)> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Alberto Costa (footballer)"@eng .
+<http://yago-knowledge.org/resource/Daniel_Wansi> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Shenzhen_Ruby_F.C.> .
+<http://yago-knowledge.org/resource/Bert_Tann> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Colin_Falvey> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Cork_(city)> .
+<http://yago-knowledge.org/resource/Andreas_Goldberger> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Andreas_Goldberger> .
+<http://yago-knowledge.org/resource/Ted_Wass_(footballer)> <http://dbpedia.org/ontology/birthDate> "1910-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Ritchie_Hanlon> <http://xmlns.com/foaf/0.1/surname> "Hanlon"@eng .
+<http://yago-knowledge.org/resource/Gunnar_Nordahl> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "10177"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Claudio_Yacob> <http://www.w3.org/2000/01/rdf-schema#label> "Claudio Ariel Yacob" .
+<http://yago-knowledge.org/resource/Khairul_Fahmi_Che_Mat> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Malaysia_national_football_team> .
+<http://yago-knowledge.org/resource/Yahiro_Kazama> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Yahiro_Kazama> .
+<http://yago-knowledge.org/resource/Habib_Mohamed> <http://www.w3.org/2004/02/skos/core#prefLabel> "Habib Mohamed"@eng .
+<http://yago-knowledge.org/resource/David_Flitcroft> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "4958"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Gianni_Munari> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gianni Munari"@eng .
+<http://yago-knowledge.org/resource/Khairul_Azman_Mohamed> <http://dbpedia.org/ontology/birthDate> "1968-03-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Markus_Rosenberg> <http://dbpedia.org/ontology/birthDate> "1982-09-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Hugh_Atkinson_(footballer)> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "3241"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Rui_Jorge> <http://xmlns.com/foaf/0.1/givenName> "Rui"@eng .
+<http://yago-knowledge.org/resource/Aleksei_Vasilyev_(footballer)> <http://www.w3.org/2000/01/rdf-schema#label> "Aleksei Yuryevich Vasilyev" .
+<http://yago-knowledge.org/resource/Cristian_Brocchi> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Italy_national_football_team> .
+<http://yago-knowledge.org/resource/Dennis_Chin> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Rohan_Marley> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Rohan_Marley> .
+<http://yago-knowledge.org/resource/Aslan_Kerimov> <http://xmlns.com/foaf/0.1/surname> "Kerimov"@eng .
+<http://yago-knowledge.org/resource/Abdulla_Afifa> <http://xmlns.com/foaf/0.1/surname> "Afifa"@eng .
+<http://yago-knowledge.org/resource/Caccamo> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Caccamo> .
+<http://yago-knowledge.org/resource/Bandon,_Oregon> <http://dbpedia.org/ontology/area> "8000000.0" .
+<http://yago-knowledge.org/resource/Sukhwinder_Singh_(football_coach)> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "2399"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Matthias_Feys> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Cercle_Brugge_K.S.V.> .
+<http://yago-knowledge.org/resource/Doug_Miller> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Doug Miller"@eng .
+<http://yago-knowledge.org/resource/Stavanger> <http://www.w3.org/2000/01/rdf-schema#label> "Stavanger" .
+<http://yago-knowledge.org/resource/Matty_Kay> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Matty Kay"@eng .
+<http://yago-knowledge.org/resource/Tim_Clark_(soccer)> <http://www.w3.org/2000/01/rdf-schema#label> "Tim Clark" .
+<http://yago-knowledge.org/resource/Steffen_Hofmann> <http://www.w3.org/2000/01/rdf-schema#label> "Steffen Hofmann" .
+<http://yago-knowledge.org/resource/Frank_O'Neill_(footballer)> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "9170"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Ray_Whittaker> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Luton_Town_F.C.> .
+<http://yago-knowledge.org/resource/Raffaele_Imparato> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/S.S._Milazzo> .
+<http://yago-knowledge.org/resource/Andreas_Bjelland> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Andreas Bjelland"@eng .
+<http://yago-knowledge.org/resource/Jassim_Mohammed_Haji> <http://www.w3.org/2000/01/rdf-schema#label> "Jassim Muhammad Haji" .
+<http://yago-knowledge.org/resource/Yankuba_Ceesay> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Wallidan_F.C.> .
+<http://yago-knowledge.org/resource/Omri_Ben_Harush> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Omri_Ben_Harush> .
+<http://yago-knowledge.org/resource/Rocco_Sabato> <http://xmlns.com/foaf/0.1/givenName> "Rocco"@eng .
+<http://yago-knowledge.org/resource/James_McBride_(footballer)> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "James McBride (footballer)"@eng .
+<http://yago-knowledge.org/resource/Alexander_Pushkin> <http://dbpedia.org/ontology/deathDate> "1837-02-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Bobby_Mason> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bobby Mason"@eng .
+<http://yago-knowledge.org/resource/Redzuan_Mohd_Radzy> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "3131"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Billy_Simpson> <http://xmlns.com/foaf/0.1/surname> "Simpson"@eng .
+<http://yago-knowledge.org/resource/Rahman_Rezaei> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Rahman_Rezaei> .
+<http://yago-knowledge.org/resource/Morten_Hamm> <http://www.w3.org/2000/01/rdf-schema#label> "Morten Hamm" .
+<http://yago-knowledge.org/resource/Ferhat_Kiraz> <http://xmlns.com/foaf/0.1/surname> "Kiraz"@eng .
+<http://yago-knowledge.org/resource/Ruy_Ramos> <http://xmlns.com/foaf/0.1/givenName> "Ruy"@eng .
+<http://yago-knowledge.org/resource/Ian_Purdie> <http://dbpedia.org/ontology/birthDate> "1953-03-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Jerry_Ireland> <http://yago-knowledge.org/resource/isAffiliatedTo> <http://yago-knowledge.org/resource/Altrincham_F.C.> .
+<http://yago-knowledge.org/resource/Muhammad_Shukor_Adan> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Muhammad_Shukor_Adan> .
+<http://yago-knowledge.org/resource/Page,_Nebraska> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Page,_Nebraska> .
+<http://yago-knowledge.org/resource/Oba_Carr> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Oba_Carr> .
+<http://yago-knowledge.org/resource/Wascott,_Wisconsin> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "6115"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Eran_Zahavi> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "7884"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Adrian_Alston> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "7497"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Bertin_Tomou> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "4920"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Michael_White_(footballer)> <http://dbpedia.org/ontology/birthDate> "1987-01-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Valery_Nahayo> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Valery Nahayo"@eng .
+<http://yago-knowledge.org/resource/Andy_Strouse> <http://dbpedia.org/ontology/birthDate> "1970-06-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Ashley_Tesoro> <http://yago-knowledge.org/resource/actedIn> <http://yago-knowledge.org/resource/Mystery_Monsters> .
+<http://yago-knowledge.org/resource/Alen_Stajcic> <http://xmlns.com/foaf/0.1/surname> "Stajcic"@eng .
+<http://yago-knowledge.org/resource/Diamantino_Leong> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Thomas_Schaaf> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Phil_Boersma> <http://xmlns.com/foaf/0.1/surname> "Boersma"@eng .
+<http://yago-knowledge.org/resource/Elvis_Scott> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/George_Bradburn_(footballer)> <http://www.w3.org/2000/01/rdf-schema#label> "George Bradburn" .
+<http://yago-knowledge.org/resource/Brad_Wilson_(soccer)> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brad Wilson (soccer)"@eng .
+<http://yago-knowledge.org/resource/Hassan_Yebda> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Hassan_Yebda> .
+<http://yago-knowledge.org/resource/Mokhtar_Megueni> <http://xmlns.com/foaf/0.1/surname> "Megueni"@eng .
+<http://yago-knowledge.org/resource/Billy_Ketkeophomphone> <http://dbpedia.org/ontology/birthDate> "1990-03-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Pizzi_(Portuguese_footballer)> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Hassan_Nader> <http://dbpedia.org/ontology/alias> "Hassan"@eng .
+<http://yago-knowledge.org/resource/Alain_Wiss> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Alain_Wiss> .
+<http://yago-knowledge.org/resource/Dan_Potocianu> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Mohammed_Mubarek_Al_Hinai> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mohammed Mubarek Al Hinai"@eng .
+<http://yago-knowledge.org/resource/Andy_Walls> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Andy_Walls> .
+<http://yago-knowledge.org/resource/Chislehurst> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Chislehurst> .
+<http://yago-knowledge.org/resource/Garry_Parker> <http://dbpedia.org/ontology/managerClub> <http://yago-knowledge.org/resource/Leicester_City_F.C.> .
+<http://yago-knowledge.org/resource/Council,_Virginia> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-82.06666666666666"^^<http://yago-knowledge.org/resource/degrees> .
+<http://yago-knowledge.org/resource/Calcio_Montebelluna> <http://www.w3.org/2000/01/rdf-schema#label> "Calcio Montebelluna"@eng .
+<http://yago-knowledge.org/resource/Brockley,_Suffolk> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Brockley,_Suffolk> .
+<http://yago-knowledge.org/resource/Bryan_Rabello> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/John_Bramhall_(footballer)> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "John Bramhall (footballer)"@eng .
+<http://yago-knowledge.org/resource/John_Limniatis> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Aris_F.C._(Thessaloniki)> .
+<http://yago-knowledge.org/resource/Derek_Forster> <http://yago-knowledge.org/resource/isAffiliatedTo> <http://yago-knowledge.org/resource/Brighton_&_Hove_Albion_F.C.> .
+<http://yago-knowledge.org/resource/Giacomo_Beretta> <http://xmlns.com/foaf/0.1/givenName> "Giacomo"@eng .
+<http://yago-knowledge.org/resource/Danny_O'Shea_(footballer)> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Wimbledon_F.C.> .
+<http://yago-knowledge.org/resource/Ulrik_Arneberg_(footballer)> <http://www.w3.org/2000/01/rdf-schema#label> "Ulrik Ancher Henriksen Arneberg" .
+<http://yago-knowledge.org/resource/Daisuke_Suzuki_(footballer)> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Daisuke Suzuki (footballer)"@eng .
+<http://yago-knowledge.org/resource/Milford,_New_Hampshire> <http://dbpedia.org/ontology/isPartOf> <http://yago-knowledge.org/resource/Hillsborough_County,_New_Hampshire> .
+<http://yago-knowledge.org/resource/Abel_Ernesto_Herrera> <http://www.w3.org/2000/01/rdf-schema#label> "Abel Ernesto Herrera" .
+<http://yago-knowledge.org/resource/Jerrod_Laventure> <http://xmlns.com/foaf/0.1/surname> "Laventure"@eng .
+<http://yago-knowledge.org/resource/Jacquie_Perrin> <http://xmlns.com/foaf/0.1/givenName> "Jacquie"@eng .
+<http://yago-knowledge.org/resource/Luciano_Tessari> <http://dbpedia.org/ontology/birthDate> "1928-09-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Ayman_Ashraf> <http://yago-knowledge.org/resource/isAffiliatedTo> <http://yago-knowledge.org/resource/Al-Ahly_S.C.> .
+<http://yago-knowledge.org/resource/Mohammad_Nosrati> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Karaj> .
+<http://yago-knowledge.org/resource/Luke_Quinlivan> <http://xmlns.com/foaf/0.1/givenName> "Luke"@eng .
+<http://yago-knowledge.org/resource/Joe_Payne_(footballer)> <http://yago-knowledge.org/resource/isAffiliatedTo> <http://yago-knowledge.org/resource/Bolsover_Colliery_Company> .
+<http://yago-knowledge.org/resource/Sid_Wharton> <http://www.w3.org/2000/01/rdf-schema#label> "Sidney Emmanuel Wharton" .
+<http://yago-knowledge.org/resource/Paul_Warne> <http://www.w3.org/2000/01/rdf-schema#label> "Paul Warne" .
+<http://yago-knowledge.org/resource/Anvar_Rakhimov> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "2333"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://yago-knowledge.org/resource/Tony_Taylor_(footballer)> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Eston> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.56"^^<http://yago-knowledge.org/resource/degrees> .
+<http://yago-knowledge.org/resource/Antonio_Donnarumma> <http://xmlns.com/foaf/0.1/givenName> "Antonio"@eng .
+<http://yago-knowledge.org/resource/Anthony_Ouasfane> <http://xmlns.com/foaf/0.1/surname> "Ouasfane"@eng .
+<http://yago-knowledge.org/resource/Roberto_Nurse> <http://xmlns.com/foaf/0.1/surname> "Nurse"@eng .
+<http://yago-knowledge.org/resource/Anna_Cholovyaga> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Russia_women's_national_football_team> .
+<http://yago-knowledge.org/resource/Chris_Sedgwick> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Preston_North_End_F.C.> .
+<http://yago-knowledge.org/resource/Muwahid_Sesay> <http://xmlns.com/foaf/0.1/givenName> "Muwahid"@eng .
+<http://yago-knowledge.org/resource/Alakbar_Mammadov> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Iain_Ramsay> <http://xmlns.com/foaf/0.1/givenName> "Iain"@eng .
+<http://yago-knowledge.org/resource/Paul_Doolin> <http://xmlns.com/foaf/0.1/givenName> "Paul"@eng .
+<http://yago-knowledge.org/resource/Aleksandar_Vasoski> <http://dbpedia.org/ontology/birthDate> "1979-11-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://yago-knowledge.org/resource/Loris_Benito> <http://xmlns.com/foaf/0.1/givenName> "Loris"@eng .
+<http://yago-knowledge.org/resource/Michael_Ozor> <http://xmlns.com/foaf/0.1/surname> "Ozor"@eng .
+<http://yago-knowledge.org/resource/Frank_Andoh> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Tudu_Mighty_Jets_FC> .
+<http://yago-knowledge.org/resource/Arturo_Velazco> <http://xmlns.com/foaf/0.1/surname> "Velazco"@eng .
+<http://yago-knowledge.org/resource/Stephen_Robertson_(footballer)> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/St._Johnstone_F.C.> .
+<http://yago-knowledge.org/resource/Antimo_Iunco> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Brindisi> .
+<http://yago-knowledge.org/resource/Grindale> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Grindale"@eng .
+<http://yago-knowledge.org/resource/Frederik_Boi> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Cercle_Brugge_K.S.V.> .
+<http://yago-knowledge.org/resource/Jamel_Mitchell> <http://dbpedia.org/ontology/team> <http://yago-knowledge.org/resource/Hershey_Wildcats> .
+<http://yago-knowledge.org/resource/Mark_Longwell> <http://xmlns.com/foaf/0.1/gender> "male"@en .
+<http://yago-knowledge.org/resource/Stuart_Nicholson> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stuart Nicholson"@eng .
+<http://yago-knowledge.org/resource/Constantin_Schumacher> <http://xmlns.com/foaf/0.1/givenName> "Constantin"@eng .
+<http://yago-knowledge.org/resource/Johnny_Matthews> <http://www.w3.org/2000/01/rdf-schema#label> "Johnny Matthews" .
+<http://yago-knowledge.org/resource/Mark_Ridgers> <http://www.w3.org/2000/01/rdf-schema#label> "Mark Ridgers" .
+<http://yago-knowledge.org/resource/Nikki_Bull> <http://yago-knowledge.org/resource/hasWikipediaUrl> <http://en.wikipedia.org/wiki/Nikki_Bull> .
+<http://yago-knowledge.org/resource/Jason_Naismith> <http://www.w3.org/2000/01/rdf-schema#label> "Jason Naismith" .
+<http://yago-knowledge.org/resource/Bruno_Herrero_Arias> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bruno Herrero Arias"@eng .
+<http://yago-knowledge.org/resource/Daniel_Prodan> <http://xmlns.com/foaf/0.1/surname> "Prodan"@eng .
+<http://yago-knowledge.org/resource/Sebastian_Heidinger> <http://xmlns.com/foaf/0.1/surname> "Heidinger"@eng .
+<http://yago-knowledge.org/resource/Norman_Dean> <http://xmlns.com/foaf/0.1/givenName> "Norman"@eng .
