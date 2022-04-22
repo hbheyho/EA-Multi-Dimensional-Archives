@@ -1,24 +1,17 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[31]:
-
-
-from rdflib import Graph, URIRef
-import random
 import numpy as np
 
 # import tensorflow as tf
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 
-import math
 import datetime as dt
 # python3: cPickle => pickle
 import pickle
 import rdflib
 import re
-import collections
 
 # from tensorflow.contrib import rnn
 # rnn = tf.nn.rnn_cell.BasicRNNCell
@@ -33,14 +26,11 @@ os.environ["CUDA_VISIBLE_DEVICES"]=DEVICE
 
 # #### Load Data
 
-# In[32]:
-
-
 # 反转dict：并交换key,value值
 def invert_dict(d):
     return dict([(v, k) for k, v in d.items()]) # python3: iteritems() => items()
 
-# 从pickle文件中加载词向量
+# 从pickle文件中加载预先处理数据
 entity_literal_vocab = pickle.load(open("data/vocab_all.pickle", "rb")) # KB1 & KB2 entity and literal vocab => KB1 & KB2实体和字面量向量
 char_vocab = pickle.load(open("data/vocab_char.pickle", "rb")) # KB1 & KB2 character vocab => KB1& KB2 字符向量
 entity_vocab = pickle.load(open("data/vocab_entity.pickle", "rb")) # KB1 & KB2 entity vocab => KB1 & KB2 实体向量
@@ -66,14 +56,8 @@ data_literal = pickle.load(open("data/data_literal.pickle", "rb"))
 data_literal_n = pickle.load(open("data/data_literal_n.pickle", "rb"))
 data_trans = pickle.load(open("data/data_trans.pickle", "rb"))
 
-
-# In[33]:
-
-
 print(len(entity_vocab)) # 133503
 
-
-# In[34]:
 
 
 # 统计各个KG实体个数
@@ -94,8 +78,6 @@ print(yag_size)
 
 
 # #### Methods for data processing
-
-# In[35]:
 
 
 # 返回字符类型
@@ -257,8 +239,6 @@ def getBatch(data, batchSize, current, entityVocab, literal_len, char_vocab):
 
 # #### Hyperparameter
 
-# In[36]:
-
 
 batchSize = 100  # batchSize长度
 hidden_size = 100 # 隐藏层数
@@ -274,15 +254,14 @@ top_k = 10 # top_k
 
 # #### Prepare testing data
 
-# In[37]:
-
 
 import random
 from rdflib import URIRef
 
 # 测试数据集
 # file_mapping = open("data/mapping_wd.ttl", 'r')
-file_mapping = open("data/mapping_yago.ttl", 'r')
+# file_mapping = open("data/mapping_yago.ttl", 'r')
+file_mapping = open("data/mapping.ttl", 'r')
 
 test_dataset_list = list()
 for line in file_mapping:
@@ -306,8 +285,6 @@ test_answer = [entity_kb1_vocab.index(entity_vocab[URIRef(k.replace('<','').repl
 
 
 # #### Embedding model
-
-# In[38]:
 
 
 # 嵌入学习
@@ -533,9 +510,6 @@ with tfgraph.as_default():
     init = tf.global_variables_initializer()
 
 
-# In[39]:
-
-
 from functools import reduce  # py3
 
 # 评价标准测试
@@ -564,9 +538,6 @@ def metric(y_true, y_pred, answer_vocab, k=10):
                     total_hits_1 += 1
                 break    
     return reduce(lambda x, y: x + y, list_rank) / len(list_rank), float(total_hits)/len(y_true), float(total_hits_1)/len(y_true)
-
-
-# In[40]:
 
 
 # 运行函数
@@ -664,17 +635,10 @@ def run(graph, totalEpoch):
     writer.close()
 
 
-# In[41]:
-
-
 start_time = dt.datetime.now()
 run(tfgraph, totalEpoch) 
 end_time = dt.datetime.now()
 print("Training time took {} seconds to run {} epoch".format((end_time-start_time).total_seconds(), totalEpoch))
 
-
-# In[ ]:
-
-
-
-
+if __name__ == '__main__':
+    print(1)
