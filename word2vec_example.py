@@ -119,7 +119,7 @@ if __name__ == '__main__':
     # print(model.wv.similarity('李达康', '祁同伟'))
 
     # 获取预料数量
-    # print(model.corpus_count)
+    print(model.corpus_count)
 
     # 获取词语向量维度
     # print(model.wv.vector_size)

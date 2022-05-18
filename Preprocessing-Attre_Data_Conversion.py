@@ -52,14 +52,14 @@ print('Tensorflow version: %s' % tf.__version__)
 # map_file = 'dataset/DWY-NB/DW-NB/mapping_wd.ttl' # (The known entity alignment as testing data)
 
 # DY-NB数据集处理
-# yago_filename = 'dataset/DWY-NB/DY-NB/yago.ttl'  # (The subset of yago KG)
-# dbp_filename = 'dataset/DWY-NB/DY-NB/dbp_yago.ttl' # (The subset of DBpedia KG)
-# map_file = 'dataset/DWY-NB/DY-NB/mapping_yago.ttl' # (The known entity alignment as testing data)
+yago_filename = 'dataset/DWY-NB/DY-NB/yago.ttl'  # (The subset of yago KG)
+dbp_filename = 'dataset/DWY-NB/DY-NB/dbp_yago.ttl' # (The subset of DBpedia KG)
+map_file = 'dataset/DWY-NB/DY-NB/mapping_yago.ttl' # (The known entity alignment as testing data)
 
 # 测试数据集处理
-yago_filename = 'dataset/DWY-NB/yago.ttl'  # (The subset of yago KG)
-dbp_filename = 'dataset/DWY-NB/dbp.ttl' # (The subset of DBpedia KG)
-map_file = 'dataset/DWY-NB/mapping.ttl' # (The known entity alignment as testing data)
+# yago_filename = 'dataset/DWY-NB/yago.ttl'  # (The subset of yago KG)
+# dbp_filename = 'dataset/DWY-NB/dbp.ttl' # (The subset of DBpedia KG)
+# map_file = 'dataset/DWY-NB/mapping.ttl' # (The known entity alignment as testing data)
 
 
 # 创建一个图谱
@@ -329,7 +329,6 @@ def invert_dict(d):
 #  每个字符的向量为字符向量为len(char_vocab), char_vocab为向量字典.
 #  literal_object：实体名称的向量表示/属性值的向量表示
 # TODO: 改进： 字符串的向量化使用嵌入的方式？？ Word2vec？？ 而不是独热编码的方式.
-
 def getLiteralArray(o, literal_len, char_vocab):
     literal_object = list()
     # literal_object初始化为0
@@ -357,6 +356,42 @@ def getLiteralArray(o, literal_len, char_vocab):
             if char_vocab.get(label[i]) == None:
                 char_vocab[label[i]] = len(char_vocab)
             literal_object[i] = char_vocab[label[i]]
+
+    return literal_object
+
+def getLiteralArrayByWord2vec(o, model, literal_len , char_vocab):
+    literal_object = np.zeros(10)
+    # 判断数据类型是否是'uri',
+    # 是字面量, 则对字面量进行处理 => 也可以看成对属性值的处理！！！
+    if o[1] != 'uri':
+        max_len = min(literal_len, len(o[0]))
+        for i in range(max_len):
+            # char_vocab没有字符o[0][i]对应的字符向量
+            if char_vocab.get(o[0][i]) == None:
+                char_vocab[o[0][i]] = len(char_vocab) # 字符向量为len(char_vocab)
+        literal = (str)(o[0]).strip(' ')
+        words = literal.split(' ')
+        for word in words:
+            try:
+                literal_object = literal_object + model.wv[word]
+            except:
+                continue
+    # 是'uri', 并且entity_label_dict不为空, 对实体名称进行向量化
+    # entity_label_dict存储的内容为：entity_label_dict[<http://dbpedia.org/resource/Ettore_Puricelli>] =  "Ettore Puricelli "
+    elif entity_label_dict.get(o[0]) != None:
+        label = entity_label_dict.get(o[0])
+        max_len = min(literal_len, len(label))
+        for i in range(max_len):
+            # char_vocab没有字符o[0][i]对应的字符向量
+            if char_vocab.get(label[i]) == None:
+                char_vocab[label[i]] = len(char_vocab) # 字符向量为len(char_vocab)
+        literal = label.strip(' ')
+        words = literal.split(' ')
+        for word in words:
+            try:
+                literal_object = literal_object + model.wv[word]
+            except:
+                continue
 
     return literal_object
 
@@ -417,6 +452,10 @@ pred_weight = dict()
 
 # 三元组(s,p,o)个数
 num_triples = 0
+
+from gensim.models import Word2Vec
+# 加载词向量模型
+model = Word2Vec.load('D:/Project/EA/EA-Multi-Dimensional-Archives/data/yago_dbp_literal_all.txt.word2vec')
 
 # TODO graph中的每一个三元组, 分别对每个三元组进行处理
 for s, p, o in graph:
@@ -488,7 +527,8 @@ for s, p, o in graph:
 
         # 6. 根据谓词是否相交对关系三元组进行不同的处理, 不相交则存于data_uri_0, 相交存于data_uri
         #  TODO 返回尾实体的字面量数组, 为全0
-        literal_object = getLiteralArray(o, literal_len, char_vocab)
+        # literal_object = getLiteralArray(o, literal_len, char_vocab)
+        literal_object = getLiteralArrayByWord2vec(o, model, literal_len, char_vocab)
 
         # 若当前谓词不在相交谓词中, 则将对应的实体向量进行存储data_uri_0
         # 具体实体向量通过向量字典得到
@@ -535,10 +575,12 @@ for s, p, o in graph:
                         if p[0] != p1[0] and len(set((str)(x) for x in (graph.predicates(s[0]))).intersection(set(intersection_predicates_uri))) != 0:
                             # 尾实体o1[0]为URIRef 并且谓词存在于intersection_predicates_ur, 存储转换内容到data_uri_trans
                             if isinstance(o1[0], rdflib.term.URIRef) and (str)(p1[0]) in intersection_predicates_uri:
-                                data_uri_trans.append([[entity_vocab[s[0]], predicate_vocab[p[0]], entity_vocab[o1[0]], predicate_vocab[p1[0]]], getLiteralArray(o1, literal_len, char_vocab)])
+                                # data_uri_trans.append([[entity_vocab[s[0]], predicate_vocab[p[0]], entity_vocab[o1[0]], predicate_vocab[p1[0]]], getLiteralArray(o1, literal_len, char_vocab)])
+                                data_uri_trans.append([[entity_vocab[s[0]], predicate_vocab[p[0]], entity_vocab[o1[0]], predicate_vocab[p1[0]]], getLiteralArrayByWord2vec(o1, model, literal_len, char_vocab)])
                             # 头实体为Literal 并且谓词为'http://www.w3.org/2000/01/rdf-schema#label'
                             elif isinstance(o1[0], rdflib.term.Literal) and (str)(p1[0]) == u'http://www.w3.org/2000/01/rdf-schema#label':
-                                data_literal_trans.append([[entity_vocab[s[0]], predicate_vocab[p[0]], entity_vocab[o1[1]], predicate_vocab[p1[0]]], getLiteralArray(o1, literal_len, char_vocab)])
+                                # data_literal_trans.append([[entity_vocab[s[0]], predicate_vocab[p[0]], entity_vocab[o1[1]], predicate_vocab[p1[0]]], getLiteralArray(o1, literal_len, char_vocab)])
+                                data_literal_trans.append([[entity_vocab[s[0]], predicate_vocab[p[0]], entity_vocab[o1[1]], predicate_vocab[p1[0]]], getLiteralArrayByWord2vec(o1, model, literal_len, char_vocab)])
                               #tmp_data.append((s[0], p[0], o[0], p1[0], o1[0]))
               ##############
     else:
@@ -546,7 +588,8 @@ for s, p, o in graph:
         if entity_vocab.get(o[1]) == None:
             entity_vocab[o[1]] = len(entity_vocab)
         # 对字面量进行向量化, 也可以看做对属性值进行向量化
-        literal_object = getLiteralArray(o, literal_len, char_vocab)
+        # literal_object = getLiteralArray(o, literal_len, char_vocab)
+        literal_object = getLiteralArrayByWord2vec(o, model, literal_len, char_vocab)
         # 若当前谓词不在相交谓词中, 则将对应的三元组实体向量进行存储data_literal_0
         if (str)(p[0]) not in intersection_predicates:
             data_literal_0.append([[entity_vocab[s[0]], predicate_vocab[p[0]], entity_vocab[o[1]], 0], literal_object])
@@ -622,82 +665,87 @@ pickle.dump(data_uri_trans, open("data/data_trans.pickle", "wb"))
 
 
 
+
+
+
 # 查看pickle文件, 看看每个文件到底有什么东西
 if __name__ == '__main__':
+    print(1)
+    #
+    # # TODO entity_literal_vocab => 头尾实体rdflib.term.URIRef和rdflib.term.Literal, 以及对应的向量编号
+    # #  简单来说, 就是将(s,p,o)中的s,o提取出来了
+    # entity_literal_vocab = pickle.load(open("data/vocab_all.pickle", "rb"))
+    # print(entity_literal_vocab)
+    # print()
+    #
+    # # TODO char_vocab =>  字符向量编号
+    # char_vocab = pickle.load(open("data/vocab_char.pickle", "rb"))
+    # print(char_vocab)
+    # print()
+    #
+    # # TODO entity_vocab => 头尾实体rdflib.term.URIRef, 若尾实体是属性, 则保存对应的数据类型以及对应的向量编号
+    # #  对于(s,p,o), 当遇到属性三元组时, 聚焦于属性的数据类型(会进行数据类型去重); 当遇到关系三元组时, 将关系三元组的头尾实体进行保存
+    # entity_vocab = pickle.load(open("data/vocab_entity.pickle", "rb"))
+    # print(entity_vocab)
+    # print()
+    #
+    # # TODO entity_vocab => 谓词rdflib.term.URIRef 以及对应的向量编号
+    # #  简单来说, 就是将(s,p,o)中的p提取出来了, 并为每个p定义一个向量
+    # predicate_vocab = pickle.load(open("data/vocab_predicate.pickle", "rb"))
+    # print(predicate_vocab)
+    # print()
+    #
+    # #  TODO 只保存dbp 头实体向量, 不考虑其谓词和尾实体
+    # entity_dbp_vocab = pickle.load(open("data/vocab_kb1.pickle", "rb"))
+    # print(entity_dbp_vocab)
+    # print()
+    #
+    # # TODO 简单来说, 就是设置每个KG的负样本字面量, 排除尾实体为属性值的负样本
+    # entity_dbp_vocab_neg = pickle.load(open("data/vocab_kb1_neg.pickle", "rb"))
+    # print(entity_dbp_vocab_neg)
+    # print()
+    # entity_lgd_vocab_neg = pickle.load(open("data/vocab_kb2_neg.pickle", "rb"))
+    # print(entity_lgd_vocab_neg)
+    # print()
+    #
+    # # TODO 实体标签label - 约等于实体名称集合.
+    # entity_label_dict = pickle.load(open("data/entity_label.pickle", "rb"))
+    # print(entity_label_dict)
+    # print()
+    #
+    # # TODO 简单来说, 就是设置每个KG的负样本字面量, 不会排除o为属性值的负样本
+    # #  len(entity_literal_dbp_vocab_neg) + len(entity_literal_lgd_vocab_neg) = len(entity_literal_vocab)
+    # entity_literal_dbp_vocab_neg = pickle.load(open("data/vocab_kb1_all_neg.pickle", "rb"))
+    # print(entity_literal_dbp_vocab_neg)
+    # print()
+    # entity_literal_lgd_vocab_neg = pickle.load(open("data/vocab_kb2_all_neg.pickle", "rb"))
+    # print(entity_literal_lgd_vocab_neg)
+    # print()
+    #
+    # #  TODO 存储谓词在相交谓词集合的关系三元组向量 [[[s,p,o,p_trans],[chars],predicate_weight], ... ]
+    # data_uri = pickle.load(open("data/data_uri.pickle", "rb"))
+    # print(data_uri)
+    # print()
+    #
+    # # TODO 存储谓词不在相交谓词集合的关系三元组向量 [[[s,p,属性数据类型,p_trans],[chars],predicate_weight], ... ]
+    # data_uri_0 = pickle.load(open("data/data_uri_n.pickle", "rb"))
+    # print(data_uri_0)
+    # print()
+    #
+    # # TODO 存储谓词在相交谓词集合的属性三元组向量 [[[s,p,o,p_trans],[chars],predicate_weight], ... ]
+    # data_literal = pickle.load(open("data/data_literal.pickle", "rb"))
+    # print(data_literal)
+    # print()
+    #
+    # # TODO 存储谓词不在相交谓词集合的属性三元组向量 [[[s,p,属性数据类型,p_trans],[chars],predicate_weight], ... ]
+    # data_literal_0 = pickle.load(open("data/data_literal_n.pickle", "rb"))
+    # print(data_literal_0)
+    # print()
+    #
+    # # TODO：我猜是按照传递规则所设置得到的新三元组！！ 丰富属性三元组和关系三原则：Transitivity Rule
+    # # TODO 根据传递规则得到的关系三元组
+    # # TODO 根据传递规则得到的属性三元组
+    # data_uri_trans = pickle.load(open("data/data_trans.pickle", "rb"))
+    # print(data_uri_trans)
+    # print()
 
-    # TODO entity_literal_vocab => 头尾实体rdflib.term.URIRef和rdflib.term.Literal, 以及对应的向量编号
-    #  简单来说, 就是将(s,p,o)中的s,o提取出来了
-    entity_literal_vocab = pickle.load(open("data/vocab_all.pickle", "rb"))
-    print(entity_literal_vocab)
-    print()
-
-    # TODO char_vocab =>  字符向量编号
-    char_vocab = pickle.load(open("data/vocab_char.pickle", "rb"))
-    print(char_vocab)
-    print()
-
-    # TODO entity_vocab => 头尾实体rdflib.term.URIRef, 若尾实体是属性, 则保存对应的数据类型以及对应的向量编号
-    #  对于(s,p,o), 当遇到属性三元组时, 聚焦于属性的数据类型(会进行数据类型去重); 当遇到关系三元组时, 将关系三元组的头尾实体进行保存
-    entity_vocab = pickle.load(open("data/vocab_entity.pickle", "rb"))
-    print(entity_vocab)
-    print()
-
-    # TODO entity_vocab => 谓词rdflib.term.URIRef 以及对应的向量编号
-    #  简单来说, 就是将(s,p,o)中的p提取出来了, 并为每个p定义一个向量
-    predicate_vocab = pickle.load(open("data/vocab_predicate.pickle", "rb"))
-    print(predicate_vocab)
-    print()
-
-    #  TODO 只保存dbp 头实体向量, 不考虑其谓词和尾实体
-    entity_dbp_vocab = pickle.load(open("data/vocab_kb1.pickle", "rb"))
-    print(entity_dbp_vocab)
-    print()
-
-    # TODO 简单来说, 就是设置每个KG的负样本字面量, 排除尾实体为属性值的负样本
-    entity_dbp_vocab_neg = pickle.load(open("data/vocab_kb1_neg.pickle", "rb"))
-    print(entity_dbp_vocab_neg)
-    print()
-    entity_lgd_vocab_neg = pickle.load(open("data/vocab_kb2_neg.pickle", "rb"))
-    print(entity_lgd_vocab_neg)
-    print()
-
-    # TODO 实体标签label - 约等于实体名称集合.
-    entity_label_dict = pickle.load(open("data/entity_label.pickle", "rb"))
-    print(entity_label_dict)
-    print()
-
-    # TODO 简单来说, 就是设置每个KG的负样本字面量, 不会排除o为属性值的负样本
-    #  len(entity_literal_dbp_vocab_neg) + len(entity_literal_lgd_vocab_neg) = len(entity_literal_vocab)
-    entity_literal_dbp_vocab_neg = pickle.load(open("data/vocab_kb1_all_neg.pickle", "rb"))
-    print(entity_literal_dbp_vocab_neg)
-    print()
-    entity_literal_lgd_vocab_neg = pickle.load(open("data/vocab_kb2_all_neg.pickle", "rb"))
-    print(entity_literal_lgd_vocab_neg)
-    print()
-
-    #  TODO 存储谓词在相交谓词集合的关系三元组向量 [[[s,p,o,p_trans],[chars],predicate_weight], ... ]
-    data_uri = pickle.load(open("data/data_uri.pickle", "rb"))
-    print(data_uri)
-    print()
-
-    # TODO 存储谓词不在相交谓词集合的关系三元组向量 [[[s,p,属性数据类型,p_trans],[chars],predicate_weight], ... ]
-    data_uri_0 = pickle.load(open("data/data_uri_n.pickle", "rb"))
-    print(data_uri_0)
-    print()
-
-    # TODO 存储谓词在相交谓词集合的属性三元组向量 [[[s,p,o,p_trans],[chars],predicate_weight], ... ]
-    data_literal = pickle.load(open("data/data_literal.pickle", "rb"))
-    print(data_literal)
-    print()
-
-    # TODO 存储谓词不在相交谓词集合的属性三元组向量 [[[s,p,属性数据类型,p_trans],[chars],predicate_weight], ... ]
-    data_literal_0 = pickle.load(open("data/data_literal_n.pickle", "rb"))
-    print(data_literal_0)
-    print()
-
-    # TODO：我猜是按照传递规则所设置得到的新三元组！！ 丰富属性三元组和关系三原则：Transitivity Rule
-    # TODO 根据传递规则得到的关系三元组
-    # TODO 根据传递规则得到的属性三元组
-    data_uri_trans = pickle.load(open("data/data_trans.pickle", "rb"))
-    print(data_uri_trans)
-    print()

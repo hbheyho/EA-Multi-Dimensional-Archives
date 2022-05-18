@@ -1,6 +1,6 @@
 <http://yago-knowledge.org/resource/Woodton> <http://dbpedia.org/ontology/populationTotal> "472"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 <http://yago-knowledge.org/resource/Alessandro_Carrozza> <http://yago-knowledge.org/resource/isPreferredMeaningOf> "Alessandro Carrozza"@eng .
-<http://yago-knowledge.org/resource/Mandla_Masango> <http://xmlns.com/foaf/0.1/givenName> "Mandla"@eng .
+<http://yago-knowledge.org/resource/Kyriakos_Papadopoulos> <http://xmlns.com/foaf/0.1/givenName> "Mandla"@eng .
 <http://yago-knowledge.org/resource/Israel_Castro_Franco> <http://dbpedia.org/ontology/birthPlace> <http://yago-knowledge.org/resource/Curitiba> .
 <http://yago-knowledge.org/resource/Armando_Robles> <http://yago-knowledge.org/resource/hasWikipediaArticleLength> "2201"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://yago-knowledge.org/resource/Markus_Ringberg> <http://dbpedia.org/ontology/birthDate> "1976-05-05"^^<http://www.w3.org/2001/XMLSchema#date> .

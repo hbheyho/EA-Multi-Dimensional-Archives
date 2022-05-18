@@ -24,20 +24,20 @@ DEVICE = "0"
 os.environ["CUDA_VISIBLE_DEVICES"]=DEVICE
 
 
-# #### Load Data
+# ================================ 1. 数据加载 ========================================= #
 
 # 反转dict：并交换key,value值
 def invert_dict(d):
     return dict([(v, k) for k, v in d.items()]) # python3: iteritems() => items()
 
 # 从pickle文件中加载预先处理数据
-entity_literal_vocab = pickle.load(open("data/vocab_all.pickle", "rb")) # KB1 & KB2 entity and literal vocab => KB1 & KB2实体和字面量向量
+entity_literal_vocab = pickle.load(open("data/vocab_all.pickle", "rb")) # KB1 & KB2 entity and literal vocab => KB1 & KB2实体和字面量向量(全部)
 char_vocab = pickle.load(open("data/vocab_char.pickle", "rb")) # KB1 & KB2 character vocab => KB1& KB2 字符向量
-entity_vocab = pickle.load(open("data/vocab_entity.pickle", "rb")) # KB1 & KB2 entity vocab => KB1 & KB2 实体向量
+entity_vocab = pickle.load(open("data/vocab_entity.pickle", "rb")) # KB1 & KB2 entity vocab => KB1 & KB2 实体向量（属性值为数据类型）
 predicate_vocab = pickle.load(open("data/vocab_predicate.pickle", "rb")) # KB1 & KB2 predicate vocab => KB1 & KB2谓词向量
 entity_kb1_vocab = pickle.load(open("data/vocab_kb1.pickle", "rb")) # KB1 entity vocab for filtering final result => KB1(dbp)的实体向量
-entity_kb1_vocab_neg = pickle.load(open("data/vocab_kb1_neg.pickle", "rb")) # KB1 entity & literal vocab for negative sampling => KB1 实体和字面量的负样本
-entity_kb2_vocab_neg = pickle.load(open("data/vocab_kb2_neg.pickle", "rb")) # KB2 entity & literal vocab for negative sampling => KB2 实体和字面量的负样本
+entity_kb1_vocab_neg = pickle.load(open("data/vocab_kb1_neg.pickle", "rb")) # KB1 entity & literal vocab for negative sampling => KB1 实体负样本（排除尾实体为属性值的负样本）
+entity_kb2_vocab_neg = pickle.load(open("data/vocab_kb2_neg.pickle", "rb")) # KB2 entity & literal vocab for negative sampling => KB2 实体的负样本（排除尾实体为属性值的负样本）
 entity_label_dict = pickle.load(open("data/entity_label.pickle", "rb")) # KB1 & KB2 entity label => KB1 & KB2 实体标签
 entity_literal_kb1_vocab_neg = pickle.load(open("data/vocab_kb1_all_neg.pickle", "rb")) # KB1 entity & literal vocab => KB1 实体和字面量负样本词向量
 entity_literal_kb2_vocab_neg = pickle.load(open("data/vocab_kb2_all_neg.pickle", "rb")) # KB1 entity & literal vocab => KB2 实体和字面量负样本词向量
@@ -48,8 +48,7 @@ reverse_predicate_vocab = invert_dict(predicate_vocab)
 reverse_char_vocab = invert_dict(char_vocab)
 reverse_entity_literal_vocab = invert_dict(entity_literal_vocab)
 
-#relationship triples & attribute triples
-# 加载关系三元组和属性三元组
+# 加载关系三元组、属性三元组以及根据转移规则得到的三元组
 data_uri = pickle.load(open("data/data_uri.pickle", "rb"))
 data_uri_n = pickle.load(open("data/data_uri_n.pickle", "rb"))
 data_literal = pickle.load(open("data/data_literal.pickle", "rb"))
@@ -59,28 +58,28 @@ data_trans = pickle.load(open("data/data_trans.pickle", "rb"))
 print(len(entity_vocab)) # 133503
 
 
-
-# 统计各个KG实体个数
+# ================================ 2. 统计实体个数 ========================================= #
+# 统计各个KG的头尾实体个数（只会统计entity_vocab中头尾实体为URI的实体）
 dbp_size = 0
 yag_size = 0
 # wd_size = 0
+
 for e in entity_vocab:
-    print(e)
+    # print(e)
     if "http://dbpedia.org/resource/" in e:
         dbp_size += 1
 #     elif "http://www.wikidata.org/entity/" in e:
 #         wd_size += 1
     elif "yago-knowledge.org/resource/" in e:
         yag_size += 1
+
 print(dbp_size)
 print(yag_size)
 # print(wd_size)
 
 
-# #### Methods for data processing
-
-
-# 返回字符类型
+# ================================ 3. 定义了若干数据处理工具方法  ========================================= #
+# TODO 返回字符类型
 def dataType(string):
     odp='string'
     patternBIT=re.compile('[01]')
@@ -95,8 +94,7 @@ def dataType(string):
         odp= "float"
     return odp
 
-### Return: data, data_type
-# 返回data,以及dataType
+# TODO 返回data,以及dataType
 def getRDFData(o):
     if isinstance(o, rdflib.term.URIRef):
         data_type = "uri"
@@ -119,9 +117,11 @@ def getRDFData(o):
 def invert_dict(d):
     return dict([(v, k) for k, v in d.items()])
 
-# 根据实体得到实体中每个字符向量数组：literal_len = 10
-# o = getRDFData(o), 返回[data, dataType].
-# char_vocab: 字符向量
+# Todo：literal_len = 10, 设定字面量的向量长度为10, 保证向量的统一, 长度更长的时候进行截断
+# TODO: getLiteralArray作用: 为每个字符串生成向量表示, 即生成单一向量, 并且是独热编码, 从向量字典中获取单个字符的向量表示!
+#  每个字符的向量为字符向量为len(char_vocab), char_vocab为向量字典.
+#  literal_object：实体名称的向量表示/属性值的向量表示
+# TODO: 改进： 字符串的向量化使用嵌入的方式？？ Word2vec？？ 而不是独热编码的方式.
 def getLiteralArray(o, literal_len, char_vocab):
     literal_object = list()
     for i in range(literal_len):
@@ -141,7 +141,43 @@ def getLiteralArray(o, literal_len, char_vocab):
             literal_object[i] = char_vocab[label[i]]
     return literal_object
 
-# 对于一个有2000个训练样本的数据集。将2000个样本分成大小为500的batch，
+def getLiteralArrayByWord2vec(o, literal_len , char_vocab):
+    literal_object = np.zeros(10)
+    # 判断数据类型是否是'uri',
+    # 是字面量, 则对字面量进行处理 => 也可以看成对属性值的处理！！！
+    if o[1] != 'uri':
+        max_len = min(literal_len, len(o[0]))
+        for i in range(max_len):
+            # char_vocab没有字符o[0][i]对应的字符向量
+            if char_vocab.get(o[0][i]) == None:
+                char_vocab[o[0][i]] = len(char_vocab) # 字符向量为len(char_vocab)
+        literal = (str)(o[0]).strip(' ')
+        words = literal.split(' ')
+        for word in words:
+            try:
+                literal_object = literal_object + model.wv[word]
+            except:
+                continue
+    # 是'uri', 并且entity_label_dict不为空, 对实体名称进行向量化
+    # entity_label_dict存储的内容为：entity_label_dict[<http://dbpedia.org/resource/Ettore_Puricelli>] =  "Ettore Puricelli "
+    elif entity_label_dict.get(o[0]) != None:
+        label = entity_label_dict.get(o[0])
+        max_len = min(literal_len, len(label))
+        for i in range(max_len):
+            # char_vocab没有字符o[0][i]对应的字符向量
+            if char_vocab.get(label[i]) == None:
+                char_vocab[label[i]] = len(char_vocab) # 字符向量为len(char_vocab)
+        literal = label.strip(' ')
+        words = literal.split(' ')
+        for word in words:
+            try:
+                literal_object = literal_object + model.wv[word]
+            except:
+                continue
+
+    return literal_object
+
+# 对于一个有2000个训练样本的数据集。将2000个样本分成大小为500的batch（bathSize = 100），
 # 那么完成一个epoch（阶段）需要4个iteration
 # 通过current，batchSize, data计算出batch, 并随机挑选中负样本, 即生成训练数据
 # 参考资料： https://www.jianshu.com/p/71f31c105879
@@ -151,29 +187,38 @@ def getBatch(data, batchSize, current, entityVocab, literal_len, char_vocab):
     
     if (len(data) - current) < batchSize:
         current = current - (batchSize - (len(data) - current))
+
     # 通过切片得到待处理数据
     dataPos_all = data[current:current+batchSize]
     
     # 处理后的处理数据集
+    # 正样本
     dataPos = list()
+    # 属性值向量列表
     charPos = list()
     pred_weight_pos = list()
+    # 负样本
     dataNeg = list()
     charNeg = list()
     
     pred_weight_neg = list()
+
+    # 数据格式为：[[[s,p,o,p_trans],[chars],predicate_weight], ... ]
     for triples, chars, pred_weight in dataPos_all:
         # 三元组以及转换后的谓词
         s,p,o,p_trans = triples
+        # 正样本数据添加（三元组向量,属性值向量, 谓词权重向量）
         dataPos.append([s,p,o,p_trans])
         charPos.append(chars)
         pred_weight_pos.append(pred_weight)
-        
+
+        # 随机替换头尾实体
         lr = round(random.random())
         
         if lr == 0:
             try:
-                o_type = getRDFData(reverse_entity_vocab[o]) # 头实体的[data, dataType]
+                # 得到尾实体类型[data, dataType]
+                o_type = getRDFData(reverse_entity_vocab[o])
             except:
                 o_type = 'not_uri'
             
@@ -207,6 +252,8 @@ def getBatch(data, batchSize, current, entityVocab, literal_len, char_vocab):
                 if (isinstance(negElm, rdflib.term.URIRef)) or (isinstance(negElm, rdflib.term.Literal)):
                     negElm = getRDFData(negElm)
                     literal_array = getLiteralArray(negElm, literal_len, char_vocab)
+                    # literal_array = getLiteralArrayByWord2vec(negElm, literal_len, char_vocab)
+
                 else:
                     rerun = True  
             # 添加负样本数据
@@ -223,6 +270,8 @@ def getBatch(data, batchSize, current, entityVocab, literal_len, char_vocab):
             # 若负样本等于尾实体, 则继续进行挑选
             while negElm == s:
                 negElm = random.randint(0, len(entity_vocab)-1)
+
+            # 负样本数据添加（三元组,属性值向量, 谓词权重）
             dataNeg.append([negElm, p, o, p_trans])
             charNeg.append(chars)
             pred_weight_neg.append(pred_weight)
@@ -237,31 +286,33 @@ def getBatch(data, batchSize, current, entityVocab, literal_len, char_vocab):
     return hasNext, current+batchSize, dataPos[:,0], dataPos[:,1], dataPos[:,2], dataPos[:,3], pred_weight_pos, charPos, dataNeg[:,0], dataNeg[:,1], dataNeg[:,2], dataNeg[:,3], pred_weight_neg, charNeg 
 
 
-# #### Hyperparameter
-
+# ================================ 4. 定义了超级参数：准备训练  ========================================= #
 
 batchSize = 100  # batchSize长度
 hidden_size = 100 # 隐藏层数
-totalEpoch = 50  # 训练次数
+totalEpoch = 100  # 训练次数
 verbose = 1000 # ??
-margin = 1.0 # ??
+margin = 1.0 # 目标函数中的γ
 literal_len = 10 # 字符量长度
 entitySize = len(entity_vocab) # 实体长度
 predSize = len(predicate_vocab) # 谓词长度
 charSize = len(char_vocab) # 字符长度
-top_k = 10 # top_k
+top_k = 10 # top_k：评价标准
+
+from gensim.models import Word2Vec
+# 加载词向量模型
+model = Word2Vec.load('D:/Project/EA/EA-Multi-Dimensional-Archives/data/yago_dbp_literal_all.txt.word2vec')
 
 
-# #### Prepare testing data
-
+# ================================ 5. 预处理测试数据  ========================================= #
 
 import random
 from rdflib import URIRef
 
-# 测试数据集
+# 加载测试数据集并保存在test_dataset_list中
 # file_mapping = open("data/mapping_wd.ttl", 'r')
-# file_mapping = open("data/mapping_yago.ttl", 'r')
-file_mapping = open("data/mapping.ttl", 'r')
+file_mapping = open("data/mapping_yago.ttl", 'r')
+# file_mapping = open("data/mapping.ttl", 'r')
 
 test_dataset_list = list()
 for line in file_mapping:
@@ -272,9 +323,13 @@ for line in file_mapping:
     # python3:默认使用的是UTF-8编码。
     s = s.encode('utf-8').decode('unicode_escape')
     o = o.encode('utf-8').decode('unicode_escape')
-    # 判断测试数据集的头尾实体是否在entity_vocab中
-    if (entity_vocab[URIRef(s.replace('<','').replace('>',''))] in entity_kb1_vocab) and (URIRef(o.replace('<','').replace('>','')) in entity_vocab):
-        test_dataset_list.append((o, s))
+    # 判断测试数据集的头尾实体是否在entity_vocab中, 测试数据集实体不在entity_kb1_vocab中, 则会报错KeyError: rdflib.term.URIRef
+    try:
+        if (entity_vocab[URIRef(s.replace('<', '').replace('>', ''))] in entity_kb1_vocab) and (URIRef(o.replace('<', '').replace('>', '')) in entity_vocab):
+            test_dataset_list.append((o, s))
+    except:
+        continue
+
 file_mapping.close()
 
 # 确定测试集合的entity向量
@@ -284,10 +339,7 @@ test_input = [entity_vocab[URIRef(k.replace('<','').replace('>',''))] for k,_ in
 test_answer = [entity_kb1_vocab.index(entity_vocab[URIRef(k.replace('<','').replace('>',''))]) for _,k in test_dataset_list]
 
 
-# #### Embedding model
-
-
-# 嵌入学习
+# ================================ 6. 嵌入学习模块（学习初始化）  ========================================= #
 tfgraph = tf.Graph()
 
 with tfgraph.as_default():
@@ -296,24 +348,29 @@ with tfgraph.as_default():
     # shape：数据形状。默认是None，就是一维值，也可以是多维（比如[2,3], [None, 3]表示列是3，行不定）
     # name：名称
     # h + r ≈ t
+    # 正样本向量嵌入
     pos_h = tf.placeholder(tf.int32, [None])
     pos_t = tf.placeholder(tf.int32, [None])
     pos_r = tf.placeholder(tf.int32, [None])
+    # 转移谓词 => 为什么有转移谓词呢？ 因为传递规则得到了对应的属性三元组
     pos_r_trans = tf.placeholder(tf.int32, [None])
     pos_c = tf.placeholder(tf.int32, [None, literal_len])
     pos_pred_weight = tf.placeholder(tf.float32, [None,1], name='pos_pred_weight')
 
+    # 负样本向量嵌入
     neg_h = tf.placeholder(tf.int32, [None])
     neg_t = tf.placeholder(tf.int32, [None])
     neg_r = tf.placeholder(tf.int32, [None])
     neg_r_trans = tf.placeholder(tf.int32, [None])
     neg_c = tf.placeholder(tf.int32, [None, literal_len])
     neg_pred_weight = tf.placeholder(tf.float32, [None,1], name='neg_pred_weight')
-    
+
+    # type_data: 数据类型: 1: uri, 0: 其他
+    # type_trans: 传递规则: 1: transitive, 0: 其他
+    # 数据类型嵌入
     type_data = tf.placeholder(tf.int32, [1])
     type_trans = tf.placeholder(tf.int32, [1])
     
-    # 关系/实体嵌入；属性嵌入；关系嵌入；属性字符嵌入等等   ？？？？
     # 如果变量存在，函数tf.get_variable()会返回现有的变量；
     # 如果变量不存在，会根据给定形状和初始值创建一个新的变量
     # name：变量名称
@@ -322,6 +379,8 @@ with tfgraph.as_default():
     # regularizer：正规化
     # caching_device：可选的设备字符串或函数描述
     # tensorflow: tf.contrib.layers.xavier_initializer => tf.keras.initializers.glorot_normal()
+
+    # 关系实体嵌入；属性实体嵌入；关系嵌入；属性关系嵌入；属性字符嵌入等等 ？？？？
     ent_embeddings_ori = tf.get_variable(name = "relationship_ent_embedding", shape = [entitySize, hidden_size], initializer = tf.keras.initializers.glorot_normal())
     atr_embeddings_ori = tf.get_variable(name = "attribute_ent_embedding", shape = [entitySize, hidden_size], initializer = tf.keras.initializers.glorot_normal())
     rel_embeddings = tf.get_variable(name = "rel_embedding", shape = [predSize, hidden_size], initializer = tf.keras.initializers.glorot_normal())
@@ -341,7 +400,9 @@ with tfgraph.as_default():
     
     # tf.nn.embedding_lookup函数的用法主要是选取一个张量里面索引对应的元素
     # tf.nn.embedding_lookup（params, ids）:params可以是张量也可以是数组等，id就是对应的索引
-    ent_value = tf.concat([tf.nn.embedding_lookup(ent_embeddings_ori, pos_h),                          tf.nn.embedding_lookup(ent_embeddings_ori, pos_t),                          tf.nn.embedding_lookup(ent_embeddings_ori, neg_h),                          tf.nn.embedding_lookup(ent_embeddings_ori, neg_t)], 0)
+    # 从实体嵌入中实体向量表示
+    ent_value = tf.concat([tf.nn.embedding_lookup(ent_embeddings_ori, pos_h), tf.nn.embedding_lookup(ent_embeddings_ori, pos_t),
+                           tf.nn.embedding_lookup(ent_embeddings_ori, neg_h),tf.nn.embedding_lookup(ent_embeddings_ori, neg_t)], 0)
     
     # 把源数据中的元素根据标记的下标位置indice分散到新数组的位置中去
     # indice = tf.constant([[4], [3], [1], [7]])
@@ -356,7 +417,8 @@ with tfgraph.as_default():
     # 对属性嵌入也进行上述和实体嵌入同样的方法进行处理
     atr_indices = tf.concat([pos_h, pos_t, neg_h, neg_t], 0)
     atr_indices = tf.reshape(atr_indices,[-1,1])
-    atr_value = tf.concat([tf.nn.embedding_lookup(atr_embeddings_ori, pos_h),                          tf.nn.embedding_lookup(atr_embeddings_ori, pos_t),                          tf.nn.embedding_lookup(atr_embeddings_ori, neg_h),                          tf.nn.embedding_lookup(atr_embeddings_ori, neg_t)], 0)
+    atr_value = tf.concat([tf.nn.embedding_lookup(atr_embeddings_ori, pos_h), tf.nn.embedding_lookup(atr_embeddings_ori, pos_t),
+                           tf.nn.embedding_lookup(atr_embeddings_ori, neg_h), tf.nn.embedding_lookup(atr_embeddings_ori, neg_t)], 0)
     part_atr_embeddings = tf.scatter_nd([atr_indices], [atr_value], atr_embeddings_ori.shape)
     atr_embeddings = part_atr_embeddings + tf.stop_gradient(-part_atr_embeddings + atr_embeddings_ori)
     
@@ -448,7 +510,7 @@ with tfgraph.as_default():
         result = tf.while_loop(condition, body, [index, expected_result])
         return result[1]
     
-    # 基于LSTN进行处理
+    # 基于LSTM进行处理
     # tf.unstack：以指定的轴axis, 将一个维度为R的张量数组转变成一个维度为R-1的张量
     # 即将一组张量以指定的轴，减少一个维度。正好和stack()相反
     pos_c_e_in_lstm = tf.unstack(pos_c_e, literal_len, 1)
@@ -510,6 +572,8 @@ with tfgraph.as_default():
     init = tf.global_variables_initializer()
 
 
+# ================================ 7. 定义了评价标准函数hit@1, hit@10, MR  ========================================= #
+
 from functools import reduce  # py3
 
 # 评价标准测试
@@ -540,7 +604,8 @@ def metric(y_true, y_pred, answer_vocab, k=10):
     return reduce(lambda x, y: x + y, list_rank) / len(list_rank), float(total_hits)/len(y_true), float(total_hits_1)/len(y_true)
 
 
-# 运行函数
+# ================================ 8.  函数运行, 进行具体的训练操作  ========================================= #
+
 def run(graph, totalEpoch):
     # writer = open('log.txt', 'w', 0)
     writer = open('log.txt', 'wb', 0)
@@ -549,8 +614,10 @@ def run(graph, totalEpoch):
         # 进行totalEpoch个运行
         for epoch in range(totalEpoch):
             if epoch % 2 == 0:
+                # [未对齐谓词关系三元组, 对齐谓词关系三元组, 未对齐谓词属性三元组, 对齐谓词属性三元组, ,转移规则得到的三元组]
                 data = [data_uri_n, data_uri, data_literal_n, data_literal,[], data_trans]
             else:
+                # [, , 未对齐谓词属性三元组, 对齐谓词属性三元组, ,转移规则得到的三元组]
                 data = [[],[],data_literal_n,data_literal,[],data_trans]
             # 当前epoch开始时间
             start_time_epoch = dt.datetime.now()
@@ -562,7 +629,8 @@ def run(graph, totalEpoch):
                 step = 0
                 # 平均损失
                 average_loss = 0
-                
+
+                # 是否传递性
                 if i > 3:
                     transitive = 1
                 else:
@@ -622,6 +690,8 @@ def run(graph, totalEpoch):
                 sim = similarity.eval()
                 #  MeanRank, hits@10, hits@1
                 mean_rank, hits_at_10, hits_at_1 = metric(test_answer, sim, entity_kb1_vocab, top_k)
+                print("Sim: ", sim)
+                writer.write(("Sim: "+ str(sim) + "\n").encode())
                 print("Mean Rank: ", mean_rank, " of ", len(entity_kb1_vocab))
                 writer.write(("Mean Rank: "+ str(mean_rank) + " of "+ str(len(entity_kb1_vocab)) + "\n").encode())
                 print("Hits @ "+str(top_k)+": ", hits_at_10)
@@ -639,6 +709,3 @@ start_time = dt.datetime.now()
 run(tfgraph, totalEpoch) 
 end_time = dt.datetime.now()
 print("Training time took {} seconds to run {} epoch".format((end_time-start_time).total_seconds(), totalEpoch))
-
-if __name__ == '__main__':
-    print(1)
