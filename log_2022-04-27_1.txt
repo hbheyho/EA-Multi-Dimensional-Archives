@@ -1,0 +1,490 @@
+Epoch: 0 Average loss at step 745: 164.5430115200283
+Epoch: 0 Average loss at step 798: 207.72430693827982
+Epoch: 0 Average loss at step 578: 102.25414671220466
+Epoch: 0 Average loss at step 1000: 102.92800771331787
+Epoch: 0 Average loss at step 2000: 99.88137148284912
+Epoch: 0 Average loss at step 3000: 97.98438567352295
+Epoch: 0 Average loss at step 3021: 98.63859198728584
+Epoch: 0 Average loss at step 16: 10.065029168584545
+Training time took 96.240652 seconds to run 1 epoch
+Epoch: 1 Average loss at step 578: 85.03705011250008
+Epoch: 1 Average loss at step 1000: 34.339611024856566
+Epoch: 1 Average loss at step 2000: 12.819641523361206
+Epoch: 1 Average loss at step 3000: 5.804312741279602
+Epoch: 1 Average loss at step 3021: 4.460399284325971
+Epoch: 1 Average loss at step 16: 1.4755228864159555
+Training time took 31.974134 seconds to run 1 epoch
+Epoch: 2 Average loss at step 745: 209.69840239740662
+Epoch: 2 Average loss at step 798: 255.2452244152383
+Epoch: 2 Average loss at step 578: 101.47538914042673
+Epoch: 2 Average loss at step 1000: 96.74031758117675
+Epoch: 2 Average loss at step 2000: 96.04629610443115
+Epoch: 2 Average loss at step 3000: 95.47725999450684
+Epoch: 2 Average loss at step 3021: 97.0218444883133
+Epoch: 2 Average loss at step 16: 10.108060107868948
+Training time took 95.187652 seconds to run 1 epoch
+Epoch: 3 Average loss at step 578: 23.29913471518247
+Epoch: 3 Average loss at step 1000: 9.060679597377778
+Epoch: 3 Average loss at step 2000: 4.505900865316391
+Epoch: 3 Average loss at step 3000: 3.0207422219514846
+Epoch: 3 Average loss at step 3021: 2.633351496057621
+Epoch: 3 Average loss at step 16: 0.716167308722332
+Training time took 31.659975 seconds to run 1 epoch
+Epoch: 4 Average loss at step 745: 190.5183587257718
+Epoch: 4 Average loss at step 798: 256.9034472457936
+Epoch: 4 Average loss at step 578: 100.59576721212535
+Epoch: 4 Average loss at step 1000: 94.73765994262695
+Epoch: 4 Average loss at step 2000: 94.33949668884277
+Epoch: 4 Average loss at step 3000: 94.04687299346924
+Epoch: 4 Average loss at step 3021: 95.51211250334633
+Epoch: 4 Average loss at step 16: 10.041417771843589
+Training time took 95.32477 seconds to run 1 epoch
+Epoch: 5 Average loss at step 578: 12.98203511734611
+Epoch: 5 Average loss at step 1000: 4.377292396903038
+Epoch: 5 Average loss at step 2000: 2.0236892448067665
+Epoch: 5 Average loss at step 3000: 1.445425663769245
+Epoch: 5 Average loss at step 3021: 1.449228558531139
+Epoch: 5 Average loss at step 16: 0.38222710418093736
+Training time took 31.95375 seconds to run 1 epoch
+Epoch: 6 Average loss at step 745: 183.8584688589595
+Epoch: 6 Average loss at step 798: 253.48471960181126
+Epoch: 6 Average loss at step 578: 99.75134859584237
+Epoch: 6 Average loss at step 1000: 93.78187908172607
+Epoch: 6 Average loss at step 2000: 93.65405948638916
+Epoch: 6 Average loss at step 3000: 93.49873044586181
+Epoch: 6 Average loss at step 3021: 95.16502071071316
+Epoch: 6 Average loss at step 16: 10.086385459656928
+Training time took 94.80086 seconds to run 1 epoch
+Epoch: 7 Average loss at step 578: 8.322819422005088
+Epoch: 7 Average loss at step 1000: 2.671121292948723
+Epoch: 7 Average loss at step 2000: 1.2744568268060683
+Epoch: 7 Average loss at step 3000: 0.9797181404829025
+Epoch: 7 Average loss at step 3021: 1.166288963155857
+Epoch: 7 Average loss at step 16: 0.33068147814197907
+Training time took 31.707685 seconds to run 1 epoch
+Epoch: 8 Average loss at step 745: 181.9207804602191
+Epoch: 8 Average loss at step 798: 239.97107827690618
+Epoch: 8 Average loss at step 578: 99.44341814574096
+Epoch: 8 Average loss at step 1000: 93.27329140472412
+Epoch: 8 Average loss at step 2000: 93.30058117675782
+Epoch: 8 Average loss at step 3000: 93.18530227661132
+Epoch: 8 Average loss at step 3021: 95.0135138964561
+Epoch: 8 Average loss at step 16: 10.227678809196327
+Training time took 95.303484 seconds to run 1 epoch
+Epoch: 9 Average loss at step 578: 6.044251443078003
+Epoch: 9 Average loss at step 1000: 1.9271266862154006
+Epoch: 9 Average loss at step 2000: 0.950610496878624
+Epoch: 9 Average loss at step 3000: 0.7620556485056877
+Epoch: 9 Average loss at step 3021: 0.7609627968326039
+Epoch: 9 Average loss at step 16: 0.26290288017054275
+Training time took 31.643339 seconds to run 1 epoch
+Sim: [[ 0.49838114 -0.32810792 -0.1350039  ... -0.19035451 -0.12940277
+  -0.10912473]
+ [ 0.39514798  0.13346256 -0.12806247 ... -0.1696774  -0.2775519
+   0.03325583]
+ [ 0.31731784 -0.49172884  0.1101047  ... -0.02655341  0.0220218
+  -0.12451326]
+ ...
+ [ 0.41431442  0.05915703 -0.19997081 ... -0.06330457 -0.169373
+  -0.05325612]
+ [ 0.3494341   0.02709101  0.06361507 ... -0.09352729  0.02494619
+  -0.02870162]
+ [ 0.27182326 -0.04006559 -0.10067628 ... -0.2284705  -0.17657891
+  -0.03127886]]
+Mean Rank: 7965.644829886591 of 28721
+Hits @ 10: 0.004402935290193462
+Hits @ 1: 0.000533689126084056
+Testing time took 34.605745 seconds.
+
+Epoch: 10 Average loss at step 745: 170.06386611990945
+Epoch: 10 Average loss at step 798: 233.40806924956374
+Epoch: 10 Average loss at step 578: 99.16331709273071
+Epoch: 10 Average loss at step 1000: 92.99988859558106
+Epoch: 10 Average loss at step 2000: 92.80728569793702
+Epoch: 10 Average loss at step 3000: 92.79116581726075
+Epoch: 10 Average loss at step 3021: 94.97343159090138
+Epoch: 10 Average loss at step 16: 10.070607677386825
+Training time took 95.570511 seconds to run 1 epoch
+Epoch: 11 Average loss at step 578: 4.686475650189954
+Epoch: 11 Average loss at step 1000: 1.4888179439902305
+Epoch: 11 Average loss at step 2000: 0.7399498441815376
+Epoch: 11 Average loss at step 3000: 0.6115307618379593
+Epoch: 11 Average loss at step 3021: 0.613530313876605
+Epoch: 11 Average loss at step 16: 0.21221595964613996
+Training time took 31.685569 seconds to run 1 epoch
+Epoch: 12 Average loss at step 745: 161.7259653824364
+Epoch: 12 Average loss at step 798: 226.52801614856463
+Epoch: 12 Average loss at step 578: 98.68418137078403
+Epoch: 12 Average loss at step 1000: 92.72947151184081
+Epoch: 12 Average loss at step 2000: 92.53557161712646
+Epoch: 12 Average loss at step 3000: 92.41299493408204
+Epoch: 12 Average loss at step 3021: 93.25045250557565
+Epoch: 12 Average loss at step 16: 10.098881994842724
+Training time took 95.158642 seconds to run 1 epoch
+Epoch: 13 Average loss at step 578: 3.8255645178322384
+Epoch: 13 Average loss at step 1000: 1.2060884184241294
+Epoch: 13 Average loss at step 2000: 0.6014955340027809
+Epoch: 13 Average loss at step 3000: 0.49792911660671235
+Epoch: 13 Average loss at step 3021: 0.5341894953407377
+Epoch: 13 Average loss at step 16: 0.1807395288139392
+Training time took 31.741717 seconds to run 1 epoch
+Epoch: 14 Average loss at step 745: 152.94235088275423
+Epoch: 14 Average loss at step 798: 214.40681765281354
+Epoch: 14 Average loss at step 578: 98.48551280080562
+Epoch: 14 Average loss at step 1000: 92.41033206176758
+Epoch: 14 Average loss at step 2000: 92.10274472045899
+Epoch: 14 Average loss at step 3000: 92.184935546875
+Epoch: 14 Average loss at step 3021: 93.77153278777959
+Epoch: 14 Average loss at step 16: 10.081575660948541
+Training time took 95.192353 seconds to run 1 epoch
+Epoch: 15 Average loss at step 578: 3.191064884955782
+Epoch: 15 Average loss at step 1000: 0.9940208718776703
+Epoch: 15 Average loss at step 2000: 0.5038632642626762
+Epoch: 15 Average loss at step 3000: 0.41397702240943907
+Epoch: 15 Average loss at step 3021: 0.4310153165839354
+Epoch: 15 Average loss at step 16: 0.14777290972934407
+Training time took 31.721998 seconds to run 1 epoch
+Epoch: 16 Average loss at step 745: 147.65176867864835
+Epoch: 16 Average loss at step 798: 201.16054387534555
+Epoch: 16 Average loss at step 578: 98.04796570392567
+Epoch: 16 Average loss at step 1000: 92.1460810546875
+Epoch: 16 Average loss at step 2000: 92.00900311279297
+Epoch: 16 Average loss at step 3000: 92.01348748779297
+Epoch: 16 Average loss at step 3021: 93.80399600879566
+Epoch: 16 Average loss at step 16: 10.06501471161083
+Training time took 95.542295 seconds to run 1 epoch
+Epoch: 17 Average loss at step 578: 2.61718988979797
+Epoch: 17 Average loss at step 1000: 0.8229752463102341
+Epoch: 17 Average loss at step 2000: 0.4304124547839165
+Epoch: 17 Average loss at step 3000: 0.35784075886011124
+Epoch: 17 Average loss at step 3021: 0.37550936852182665
+Epoch: 17 Average loss at step 16: 0.15170997495104555
+Training time took 31.633583 seconds to run 1 epoch
+Epoch: 18 Average loss at step 745: 141.5753911906049
+Epoch: 18 Average loss at step 798: 193.97995381875674
+Epoch: 18 Average loss at step 578: 97.77985060191888
+Epoch: 18 Average loss at step 1000: 91.66770128631592
+Epoch: 18 Average loss at step 2000: 91.72143872833252
+Epoch: 18 Average loss at step 3000: 91.58289808654786
+Epoch: 18 Average loss at step 3021: 92.91655750348302
+Epoch: 18 Average loss at step 16: 10.049297551440585
+Training time took 95.2952 seconds to run 1 epoch
+Epoch: 19 Average loss at step 578: 2.319885885466238
+Epoch: 19 Average loss at step 1000: 0.7270290799736977
+Epoch: 19 Average loss at step 2000: 0.37812972962856295
+Epoch: 19 Average loss at step 3000: 0.3203969880342484
+Epoch: 19 Average loss at step 3021: 0.3286596459541542
+Epoch: 19 Average loss at step 16: 0.12080652698589739
+Training time took 31.699588 seconds to run 1 epoch
+Sim: [[ 0.5432498  -0.42052245 -0.25879306 ... -0.13794388 -0.27926877
+  -0.3912761 ]
+ [ 0.56143236 -0.05568692 -0.20501165 ... -0.14390448 -0.19884634
+  -0.28649008]
+ [ 0.25654224 -0.40535522 -0.02208703 ... -0.37453204 -0.48211083
+  -0.1831456 ]
+ ...
+ [ 0.7270959  -0.17675845 -0.29443032 ... -0.33322293 -0.35560083
+  -0.2824637 ]
+ [ 0.6872469  -0.11596219 -0.15275177 ... -0.24521826 -0.32472056
+  -0.26864687]
+ [ 0.63169557 -0.4730355  -0.3072504  ... -0.35346955 -0.4816455
+  -0.40059677]]
+Mean Rank: 6273.361307538359 of 28721
+Hits @ 10: 0.01134089392928619
+Hits @ 1: 0.0020013342228152103
+Testing time took 31.264679 seconds.
+
+Epoch: 20 Average loss at step 745: 157.9615389790915
+Epoch: 20 Average loss at step 798: 194.7480166072273
+Epoch: 20 Average loss at step 578: 97.52411267923141
+Epoch: 20 Average loss at step 1000: 91.39764194488525
+Epoch: 20 Average loss at step 2000: 91.34204700469971
+Epoch: 20 Average loss at step 3000: 91.56919225311279
+Epoch: 20 Average loss at step 3021: 92.27842934803613
+Epoch: 20 Average loss at step 16: 10.203735448752239
+Training time took 95.727661 seconds to run 1 epoch
+Epoch: 21 Average loss at step 578: 2.016352027411178
+Epoch: 21 Average loss at step 1000: 0.6280032193660736
+Epoch: 21 Average loss at step 2000: 0.33647689992189406
+Epoch: 21 Average loss at step 3000: 0.28552869153022764
+Epoch: 21 Average loss at step 3021: 0.3058026943887983
+Epoch: 21 Average loss at step 16: 0.122884815665567
+Training time took 32.123942 seconds to run 1 epoch
+Epoch: 22 Average loss at step 745: 152.5059403692705
+Epoch: 22 Average loss at step 798: 187.65708881641845
+Epoch: 22 Average loss at step 578: 97.25017246530513
+Epoch: 22 Average loss at step 1000: 91.16087574005127
+Epoch: 22 Average loss at step 2000: 91.26365009307861
+Epoch: 22 Average loss at step 3000: 90.89037882232665
+Epoch: 22 Average loss at step 3021: 93.02092445402992
+Epoch: 22 Average loss at step 16: 10.164724337826868
+Training time took 95.101637 seconds to run 1 epoch
+Epoch: 23 Average loss at step 578: 1.774981267372679
+Epoch: 23 Average loss at step 1000: 0.554930724978447
+Epoch: 23 Average loss at step 2000: 0.3048158712387085
+Epoch: 23 Average loss at step 3000: 0.2598219514489174
+Epoch: 23 Average loss at step 3021: 0.2957353605726971
+Epoch: 23 Average loss at step 16: 0.10685731650917393
+Training time took 31.689015 seconds to run 1 epoch
+Epoch: 24 Average loss at step 745: 142.77944106735927
+Epoch: 24 Average loss at step 798: 182.92551934621955
+Epoch: 24 Average loss at step 578: 96.97850223922624
+Epoch: 24 Average loss at step 1000: 90.89616229248047
+Epoch: 24 Average loss at step 2000: 90.71245197296143
+Epoch: 24 Average loss at step 3000: 90.88927587127685
+Epoch: 24 Average loss at step 3021: 91.42835720165357
+Epoch: 24 Average loss at step 16: 10.167673803438806
+Training time took 95.199344 seconds to run 1 epoch
+Epoch: 25 Average loss at step 578: 1.549276483006109
+Epoch: 25 Average loss at step 1000: 0.48946877878904343
+Epoch: 25 Average loss at step 2000: 0.2778845199942589
+Epoch: 25 Average loss at step 3000: 0.23908231937885285
+Epoch: 25 Average loss at step 3021: 0.24824136702710597
+Epoch: 25 Average loss at step 16: 0.09512873212243342
+Training time took 31.772834 seconds to run 1 epoch
+Epoch: 26 Average loss at step 745: 134.05359047037695
+Epoch: 26 Average loss at step 798: 179.55153555146438
+Epoch: 26 Average loss at step 578: 96.62488256257447
+Epoch: 26 Average loss at step 1000: 90.59360585021973
+Epoch: 26 Average loss at step 2000: 90.674974609375
+Epoch: 26 Average loss at step 3000: 90.55721981811523
+Epoch: 26 Average loss at step 3021: 91.94722230830249
+Epoch: 26 Average loss at step 16: 10.155953571295283
+Training time took 95.402455 seconds to run 1 epoch
+Epoch: 27 Average loss at step 578: 1.3990691987572204
+Epoch: 27 Average loss at step 1000: 0.44586761224269866
+Epoch: 27 Average loss at step 2000: 0.2514700405597687
+Epoch: 27 Average loss at step 3000: 0.2201015465259552
+Epoch: 27 Average loss at step 3021: 0.21961778114661287
+Epoch: 27 Average loss at step 16: 0.08495972794332322
+Training time took 31.693346 seconds to run 1 epoch
+Epoch: 28 Average loss at step 745: 127.46288239405074
+Epoch: 28 Average loss at step 798: 178.31628207298226
+Epoch: 28 Average loss at step 578: 96.57465046840638
+Epoch: 28 Average loss at step 1000: 90.31831983184814
+Epoch: 28 Average loss at step 2000: 90.31909230041504
+Epoch: 28 Average loss at step 3000: 90.16994637298583
+Epoch: 28 Average loss at step 3021: 90.5623855738106
+Epoch: 28 Average loss at step 16: 10.196939820696594
+Training time took 95.223965 seconds to run 1 epoch
+Epoch: 29 Average loss at step 578: 1.265948757681943
+Epoch: 29 Average loss at step 1000: 0.40808070319890977
+Epoch: 29 Average loss at step 2000: 0.23391886258125305
+Epoch: 29 Average loss at step 3000: 0.20441756755113602
+Epoch: 29 Average loss at step 3021: 0.21451222332748207
+Epoch: 29 Average loss at step 16: 0.08367446577473052
+Training time took 31.656349 seconds to run 1 epoch
+Sim: [[ 0.67116624 -0.26891753 -0.25826392 ... -0.50659823 -0.43825865
+  -0.45385763]
+ [ 0.77834445 -0.11801031 -0.28342468 ... -0.554099   -0.5034619
+  -0.45519972]
+ [ 0.29943284 -0.5577852  -0.05352415 ... -0.13795714 -0.22247285
+  -0.3695229 ]
+ ...
+ [ 0.78812957 -0.1968841  -0.31819433 ... -0.5346848  -0.42262384
+  -0.46356475]
+ [ 0.75509256 -0.08842736 -0.20465791 ... -0.4378877  -0.41573015
+  -0.40960994]
+ [ 0.7820746  -0.6086198  -0.3268499  ... -0.5835743  -0.5522012
+  -0.63320315]]
+Mean Rank: 5646.192795196798 of 28721
+Hits @ 10: 0.021080720480320215
+Hits @ 1: 0.004669779853235491
+Testing time took 29.710002 seconds.
+
+Epoch: 30 Average loss at step 745: 125.28354457545326
+Epoch: 30 Average loss at step 798: 175.39526585317756
+Epoch: 30 Average loss at step 578: 96.28618464051307
+Epoch: 30 Average loss at step 1000: 90.3060714263916
+Epoch: 30 Average loss at step 2000: 89.99306372070312
+Epoch: 30 Average loss at step 3000: 90.05880734252929
+Epoch: 30 Average loss at step 3021: 89.9842188625262
+Epoch: 30 Average loss at step 16: 10.258563886022872
+Training time took 95.124034 seconds to run 1 epoch
+Epoch: 31 Average loss at step 578: 1.1443090319996625
+Epoch: 31 Average loss at step 1000: 0.3710809506773949
+Epoch: 31 Average loss at step 2000: 0.21467326617240906
+Epoch: 31 Average loss at step 3000: 0.1925128424167633
+Epoch: 31 Average loss at step 3021: 0.19731895286143977
+Epoch: 31 Average loss at step 16: 0.08015680085321901
+Training time took 31.702106 seconds to run 1 epoch
+Epoch: 32 Average loss at step 745: 123.35909330381159
+Epoch: 32 Average loss at step 798: 178.0120389831575
+Epoch: 32 Average loss at step 578: 96.01063168435108
+Epoch: 32 Average loss at step 1000: 89.67559474182129
+Epoch: 32 Average loss at step 2000: 89.71626806640624
+Epoch: 32 Average loss at step 3000: 89.71534391784668
+Epoch: 32 Average loss at step 3021: 91.24839738529161
+Epoch: 32 Average loss at step 16: 10.271472748677443
+Training time took 95.153013 seconds to run 1 epoch
+Epoch: 33 Average loss at step 578: 1.0493481055632485
+Epoch: 33 Average loss at step 1000: 0.34179938858747483
+Epoch: 33 Average loss at step 2000: 0.20263632035255433
+Epoch: 33 Average loss at step 3000: 0.1777507238984108
+Epoch: 33 Average loss at step 3021: 0.181839318809362
+Epoch: 33 Average loss at step 16: 0.07433674138063079
+Training time took 31.754683 seconds to run 1 epoch
+Epoch: 34 Average loss at step 745: 120.42841875448089
+Epoch: 34 Average loss at step 798: 174.49684777621934
+Epoch: 34 Average loss at step 578: 95.83162201041827
+Epoch: 34 Average loss at step 1000: 89.61236985015869
+Epoch: 34 Average loss at step 2000: 89.43596362304687
+Epoch: 34 Average loss at step 3000: 89.4980375442505
+Epoch: 34 Average loss at step 3021: 89.55236125636746
+Epoch: 34 Average loss at step 16: 10.123756979681124
+Training time took 94.848726 seconds to run 1 epoch
+Epoch: 35 Average loss at step 578: 0.9668640344633485
+Epoch: 35 Average loss at step 1000: 0.31705958729982375
+Epoch: 35 Average loss at step 2000: 0.18824113649129867
+Epoch: 35 Average loss at step 3000: 0.1681370479464531
+Epoch: 35 Average loss at step 3021: 0.18017783933624798
+Epoch: 35 Average loss at step 16: 0.06554793400369632
+Training time took 31.756198 seconds to run 1 epoch
+Epoch: 36 Average loss at step 745: 118.43713752023896
+Epoch: 36 Average loss at step 798: 175.08169038341114
+Epoch: 36 Average loss at step 578: 95.50580079124364
+Epoch: 36 Average loss at step 1000: 89.37062509155274
+Epoch: 36 Average loss at step 2000: 89.10488443756104
+Epoch: 36 Average loss at step 3000: 89.19803359222412
+Epoch: 36 Average loss at step 3021: 90.29776746241743
+Epoch: 36 Average loss at step 16: 10.16043997114631
+Training time took 94.789566 seconds to run 1 epoch
+Epoch: 37 Average loss at step 578: 0.8918074189964604
+Epoch: 37 Average loss at step 1000: 0.29678042644262315
+Epoch: 37 Average loss at step 2000: 0.17661920446157456
+Epoch: 37 Average loss at step 3000: 0.15827103596925735
+Epoch: 37 Average loss at step 3021: 0.1622999065401011
+Epoch: 37 Average loss at step 16: 0.07007783005951317
+Training time took 31.773992 seconds to run 1 epoch
+Epoch: 38 Average loss at step 745: 115.52891368228543
+Epoch: 38 Average loss at step 798: 175.02736371760233
+Epoch: 38 Average loss at step 578: 95.34888943619625
+Epoch: 38 Average loss at step 1000: 89.00008895874024
+Epoch: 38 Average loss at step 2000: 88.84002303314209
+Epoch: 38 Average loss at step 3000: 89.05701551818848
+Epoch: 38 Average loss at step 3021: 89.91843890039158
+Epoch: 38 Average loss at step 16: 10.25711563742085
+Training time took 95.156854 seconds to run 1 epoch
+Epoch: 39 Average loss at step 578: 0.8387663560795408
+Epoch: 39 Average loss at step 1000: 0.2762571405172348
+Epoch: 39 Average loss at step 2000: 0.1675899800658226
+Epoch: 39 Average loss at step 3000: 0.15032980543375016
+Epoch: 39 Average loss at step 3021: 0.15432864830300616
+Epoch: 39 Average loss at step 16: 0.06022222482474746
+Training time took 31.744447 seconds to run 1 epoch
+Sim: [[ 0.7114403  -0.35514566 -0.28181994 ... -0.44591278 -0.46839702
+  -0.49044737]
+ [ 0.92586327 -0.46542823 -0.26915568 ... -0.6511663  -0.7236739
+  -0.7271419 ]
+ [ 0.2125904  -0.54184324 -0.0564623  ... -0.31160334 -0.4008177
+  -0.43372476]
+ ...
+ [ 0.87116337 -0.45864668 -0.33745745 ... -0.6366162  -0.63787407
+  -0.66479903]
+ [ 0.8023436  -0.22402461 -0.22753778 ... -0.44318834 -0.52284807
+  -0.57870764]
+ [ 0.7940382  -0.5357017  -0.3269657  ... -0.5987936  -0.61927366
+  -0.648821  ]]
+Mean Rank: 5265.952768512341 of 28721
+Hits @ 10: 0.029086057371581053
+Hits @ 1: 0.0062708472314876584
+Testing time took 29.068633 seconds.
+
+Epoch: 40 Average loss at step 745: 112.0703775934473
+Epoch: 40 Average loss at step 798: 173.86012509493983
+Epoch: 40 Average loss at step 578: 95.07183731510118
+Epoch: 40 Average loss at step 1000: 88.69504106903076
+Epoch: 40 Average loss at step 2000: 88.72300936126709
+Epoch: 40 Average loss at step 3000: 88.6830013885498
+Epoch: 40 Average loss at step 3021: 90.0695937020438
+Epoch: 40 Average loss at step 16: 10.260040744854386
+Training time took 95.569355 seconds to run 1 epoch
+Epoch: 41 Average loss at step 578: 0.7793655333773841
+Epoch: 41 Average loss at step 1000: 0.2593443940281868
+Epoch: 41 Average loss at step 2000: 0.15922998082637788
+Epoch: 41 Average loss at step 3000: 0.14202681350708007
+Epoch: 41 Average loss at step 3021: 0.15024389769579913
+Epoch: 41 Average loss at step 16: 0.059941722329255126
+Training time took 31.669153 seconds to run 1 epoch
+Epoch: 42 Average loss at step 745: 108.93157263250984
+Epoch: 42 Average loss at step 798: 175.18630824312723
+Epoch: 42 Average loss at step 578: 95.0618311428555
+Epoch: 42 Average loss at step 1000: 88.55582951354981
+Epoch: 42 Average loss at step 2000: 88.38066912078857
+Epoch: 42 Average loss at step 3000: 88.18294160461426
+Epoch: 42 Average loss at step 3021: 88.58528763170868
+Epoch: 42 Average loss at step 16: 10.166600950204643
+Training time took 95.309345 seconds to run 1 epoch
+Epoch: 43 Average loss at step 578: 0.7262599469056522
+Epoch: 43 Average loss at step 1000: 0.24578846204280852
+Epoch: 43 Average loss at step 2000: 0.15036894083023072
+Epoch: 43 Average loss at step 3000: 0.1359843218922615
+Epoch: 43 Average loss at step 3021: 0.1424737648614125
+Epoch: 43 Average loss at step 16: 0.05709859216289156
+Training time took 31.75963 seconds to run 1 epoch
+Epoch: 44 Average loss at step 745: 112.43148334764702
+Epoch: 44 Average loss at step 798: 172.31432048520162
+Epoch: 44 Average loss at step 578: 94.52636832842303
+Epoch: 44 Average loss at step 1000: 88.28567143249512
+Epoch: 44 Average loss at step 2000: 88.17599226379394
+Epoch: 44 Average loss at step 3000: 88.03031681823731
+Epoch: 44 Average loss at step 3021: 89.64468981768634
+Epoch: 44 Average loss at step 16: 10.227827873958905
+Training time took 95.233465 seconds to run 1 epoch
+Epoch: 45 Average loss at step 578: 0.6927250734626075
+Epoch: 45 Average loss at step 1000: 0.23109038800001144
+Epoch: 45 Average loss at step 2000: 0.14356935453414918
+Epoch: 45 Average loss at step 3000: 0.1301574543118477
+Epoch: 45 Average loss at step 3021: 0.13152924168524135
+Epoch: 45 Average loss at step 16: 0.05204806661909553
+Training time took 31.789115 seconds to run 1 epoch
+Epoch: 46 Average loss at step 745: 112.3105592018503
+Epoch: 46 Average loss at step 798: 170.211982918326
+Epoch: 46 Average loss at step 578: 94.55796282432047
+Epoch: 46 Average loss at step 1000: 87.94408700561523
+Epoch: 46 Average loss at step 2000: 87.96682089996338
+Epoch: 46 Average loss at step 3000: 87.79965639495849
+Epoch: 46 Average loss at step 3021: 88.44795227050781
+Epoch: 46 Average loss at step 16: 10.136128626051983
+Training time took 95.453758 seconds to run 1 epoch
+Epoch: 47 Average loss at step 578: 0.6479639578553918
+Epoch: 47 Average loss at step 1000: 0.2185184142589569
+Epoch: 47 Average loss at step 2000: 0.1363368963599205
+Epoch: 47 Average loss at step 3000: 0.12367302799224854
+Epoch: 47 Average loss at step 3021: 0.12710960905524296
+Epoch: 47 Average loss at step 16: 0.049693611017458
+Training time took 31.738209 seconds to run 1 epoch
+Epoch: 48 Average loss at step 745: 109.5015278406715
+Epoch: 48 Average loss at step 798: 175.12974416895514
+Epoch: 48 Average loss at step 578: 94.30449153537798
+Epoch: 48 Average loss at step 1000: 87.71240270233154
+Epoch: 48 Average loss at step 2000: 87.86594956970215
+Epoch: 48 Average loss at step 3000: 87.63124186706543
+Epoch: 48 Average loss at step 3021: 87.60794157227035
+Epoch: 48 Average loss at step 16: 10.166612491486179
+Training time took 94.960887 seconds to run 1 epoch
+Epoch: 49 Average loss at step 578: 0.6128885678284652
+Epoch: 49 Average loss at step 1000: 0.21084081071615218
+Epoch: 49 Average loss at step 2000: 0.1300501400232315
+Epoch: 49 Average loss at step 3000: 0.11947751331329345
+Epoch: 49 Average loss at step 3021: 0.12250483093574702
+Epoch: 49 Average loss at step 16: 0.048744029300228045
+Training time took 31.797914 seconds to run 1 epoch
+Sim: [[ 0.8035185  -0.26751927 -0.2906943  ... -0.55709535 -0.66516036
+  -0.57657397]
+ [ 0.9393442  -0.3833604  -0.2705244  ... -0.70775324 -0.75815034
+  -0.73046046]
+ [ 0.24841075 -0.69749737 -0.06534138 ... -0.38266462 -0.32223922
+  -0.44460717]
+ ...
+ [ 0.9087617  -0.4181352  -0.3250033  ... -0.68551964 -0.7289829
+  -0.7003021 ]
+ [ 0.85689676 -0.31174442 -0.25192782 ... -0.6082408  -0.59821236
+  -0.64878696]
+ [ 0.8558127  -0.46876794 -0.32607946 ... -0.6655893  -0.76355785
+  -0.6827469 ]]
+Mean Rank: 5063.204669779853 of 28721
+Hits @ 10: 0.03175450300200133
+Hits @ 1: 0.00867244829886591
+Testing time took 28.58094 seconds.
+
